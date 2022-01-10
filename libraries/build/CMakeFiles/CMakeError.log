@@ -1,0 +1,924 @@
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /bin/arm-none-eabi-gcc-8.3.1 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+/usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/bin/ld: /usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/lib/libc.a(lib_a-exit.o): in function `exit':
+/build/newlib-kGgvwE/newlib-3.3.0/build/arm-none-eabi/newlib/libc/stdlib/../../../../../newlib/libc/stdlib/exit.c:64: undefined reference to `_exit'
+collect2: error: ld returned 1 exit status
+
+
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: /home/pi/pico/RP2040-HAT-C/libraries/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_baae7/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_baae7.dir/build.make CMakeFiles/cmTC_baae7.dir/build
+gmake[1]: Entering directory '/home/pi/pico/RP2040-HAT-C/libraries/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_baae7.dir/CMakeCCompilerABI.c.o
+/bin/arm-none-eabi-gcc-8.3.1   -v -o CMakeFiles/cmTC_baae7.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.18/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/bin/arm-none-eabi-gcc-8.3.1
+Target: arm-none-eabi
+Configured with: ../configure --build=arm-linux-gnueabihf --prefix=/usr --includedir='/usr/lib/include' --mandir='/usr/lib/share/man' --infodir='/usr/lib/share/info' --sysconfdir=/etc --localstatedir=/var --disable-option-checking --disable-silent-rules --libdir='/usr/lib/lib/arm-linux-gnueabihf' --libexecdir='/usr/lib/lib/arm-linux-gnueabihf' --disable-maintainer-mode --disable-dependency-tracking --mandir=/usr/share/man --enable-languages=c,c++,lto --enable-multilib --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --enable-tls --build=arm-linux-gnueabihf --target=arm-none-eabi --with-system-zlib --with-gnu-as --with-gnu-ld --with-pkgversion=15:8-2019-q3-1+b1 --without-included-gettext --prefix=/usr/lib --infodir=/usr/share/doc/gcc-arm-none-eabi/info --htmldir=/usr/share/doc/gcc-arm-none-eabi/html --pdfdir=/usr/share/doc/gcc-arm-none-eabi/pdf --bindir=/usr/bin --libexecdir=/usr/lib --libdir=/usr/lib --disable-libstdc++-v3 --host=arm-linux-gnueabihf --with-headers=no --without-newlib --with-multilib-list=rmprofile CFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-3BFy9A/gcc-arm-none-eabi-8-2019-q3=. -fstack-protector-strong' CPPFLAGS='-Wdate-time -D_FORTIFY_SOURCE=2' CXXFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-3BFy9A/gcc-arm-none-eabi-8-2019-q3=. -fstack-protector-strong' FCFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-3BFy9A/gcc-arm-none-eabi-8-2019-q3=. -fstack-protector-strong' FFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-3BFy9A/gcc-arm-none-eabi-8-2019-q3=. -fstack-protector-strong' GCJFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-3BFy9A/gcc-arm-none-eabi-8-2019-q3=. -fstack-protector-strong' LDFLAGS=-Wl,-z,relro OBJCFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-3BFy9A/gcc-arm-none-eabi-8-2019-q3=. -fstack-protector-strong' OBJCXXFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-3BFy9A/gcc-arm-none-eabi-8-2019-q3=. -fstack-protector-strong' INHIBIT_LIBC_CFLAGS=-DUSE_TM_CLONE_REGISTRY=0 AR_FOR_TARGET=arm-none-eabi-ar AS_FOR_TARGET=arm-none-eabi-as LD_FOR_TARGET=arm-none-eabi-ld NM_FOR_TARGET=arm-none-eabi-nm OBJDUMP_FOR_TARGET=arm-none-eabi-objdump RANLIB_FOR_TARGET=arm-none-eabi-ranlib READELF_FOR_TARGET=arm-none-eabi-readelf STRIP_FOR_TARGET=arm-none-eabi-strip
+Thread model: single
+gcc version 8.3.1 20190703 (release) [gcc-8-branch revision 273027] (15:8-2019-q3-1+b1) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_baae7.dir/CMakeCCompilerABI.c.o' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
+ /usr/lib/gcc/arm-none-eabi/8.3.1/cc1 -quiet -v -D__USES_INITFINI__ /usr/share/cmake-3.18/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mcpu=arm7tdmi -mfloat-abi=soft -marm -march=armv4t -auxbase-strip CMakeFiles/cmTC_baae7.dir/CMakeCCompilerABI.c.o -version -o /tmp/ccVYPjNb.s
+GNU C17 (15:8-2019-q3-1+b1) version 8.3.1 20190703 (release) [gcc-8-branch revision 273027] (arm-none-eabi)
+	compiled by GNU C version 10.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.0, isl version isl-0.23-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/sys-include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/arm-none-eabi/8.3.1/include
+ /usr/lib/gcc/arm-none-eabi/8.3.1/include-fixed
+ /usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/include
+End of search list.
+GNU C17 (15:8-2019-q3-1+b1) version 8.3.1 20190703 (release) [gcc-8-branch revision 273027] (arm-none-eabi)
+	compiled by GNU C version 10.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.0, isl version isl-0.23-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 18311f357af908e02058b19d5bd71d4d
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_baae7.dir/CMakeCCompilerABI.c.o' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
+ /usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/bin/as -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_baae7.dir/CMakeCCompilerABI.c.o /tmp/ccVYPjNb.s
+GNU assembler version 2.34 (arm-none-eabi) using BFD version (2.34-4+rpi1+14) 2.34
+COMPILER_PATH=/usr/lib/gcc/arm-none-eabi/8.3.1/:/usr/lib/gcc/arm-none-eabi/8.3.1/:/usr/lib/gcc/arm-none-eabi/:/usr/lib/gcc/arm-none-eabi/8.3.1/:/usr/lib/gcc/arm-none-eabi/:/usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/bin/
+LIBRARY_PATH=/usr/lib/gcc/arm-none-eabi/8.3.1/:/usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_baae7.dir/CMakeCCompilerABI.c.o' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
+Linking C executable cmTC_baae7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_baae7.dir/link.txt --verbose=1
+/bin/arm-none-eabi-gcc-8.3.1  -v -rdynamic CMakeFiles/cmTC_baae7.dir/CMakeCCompilerABI.c.o -o cmTC_baae7 
+Using built-in specs.
+COLLECT_GCC=/bin/arm-none-eabi-gcc-8.3.1
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/arm-none-eabi/8.3.1/lto-wrapper
+arm-none-eabi-gcc-8.3.1: error: unrecognized command line option '-rdynamic'
+Target: arm-none-eabi
+Configured with: ../configure --build=arm-linux-gnueabihf --prefix=/usr --includedir='/usr/lib/include' --mandir='/usr/lib/share/man' --infodir='/usr/lib/share/info' --sysconfdir=/etc --localstatedir=/var --disable-option-checking --disable-silent-rules --libdir='/usr/lib/lib/arm-linux-gnueabihf' --libexecdir='/usr/lib/lib/arm-linux-gnueabihf' --disable-maintainer-mode --disable-dependency-tracking --mandir=/usr/share/man --enable-languages=c,c++,lto --enable-multilib --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --enable-tls --build=arm-linux-gnueabihf --target=arm-none-eabi --with-system-zlib --with-gnu-as --with-gnu-ld --with-pkgversion=15:8-2019-q3-1+b1 --without-included-gettext --prefix=/usr/lib --infodir=/usr/share/doc/gcc-arm-none-eabi/info --htmldir=/usr/share/doc/gcc-arm-none-eabi/html --pdfdir=/usr/share/doc/gcc-arm-none-eabi/pdf --bindir=/usr/bin --libexecdir=/usr/lib --libdir=/usr/lib --disable-libstdc++-v3 --host=arm-linux-gnueabihf --with-headers=no --without-newlib --with-multilib-list=rmprofile CFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-3BFy9A/gcc-arm-none-eabi-8-2019-q3=. -fstack-protector-strong' CPPFLAGS='-Wdate-time -D_FORTIFY_SOURCE=2' CXXFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-3BFy9A/gcc-arm-none-eabi-8-2019-q3=. -fstack-protector-strong' FCFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-3BFy9A/gcc-arm-none-eabi-8-2019-q3=. -fstack-protector-strong' FFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-3BFy9A/gcc-arm-none-eabi-8-2019-q3=. -fstack-protector-strong' GCJFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-3BFy9A/gcc-arm-none-eabi-8-2019-q3=. -fstack-protector-strong' LDFLAGS=-Wl,-z,relro OBJCFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-3BFy9A/gcc-arm-none-eabi-8-2019-q3=. -fstack-protector-strong' OBJCXXFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-3BFy9A/gcc-arm-none-eabi-8-2019-q3=. -fstack-protector-strong' INHIBIT_LIBC_CFLAGS=-DUSE_TM_CLONE_REGISTRY=0 AR_FOR_TARGET=arm-none-eabi-ar AS_FOR_TARGET=arm-none-eabi-as LD_FOR_TARGET=arm-none-eabi-ld NM_FOR_TARGET=arm-none-eabi-nm OBJDUMP_FOR_TARGET=arm-none-eabi-objdump RANLIB_FOR_TARGET=arm-none-eabi-ranlib READELF_FOR_TARGET=arm-none-eabi-readelf STRIP_FOR_TARGET=arm-none-eabi-strip
+Thread model: single
+gcc version 8.3.1 20190703 (release) [gcc-8-branch revision 273027] (15:8-2019-q3-1+b1) 
+gmake[1]: *** [CMakeFiles/cmTC_baae7.dir/build.make:106: cmTC_baae7] Error 1
+gmake[1]: Leaving directory '/home/pi/pico/RP2040-HAT-C/libraries/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_baae7/fast] Error 2
+
+
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: /home/pi/pico/RP2040-HAT-C/libraries/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_6d8b4/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_6d8b4.dir/build.make CMakeFiles/cmTC_6d8b4.dir/build
+gmake[1]: Entering directory '/home/pi/pico/RP2040-HAT-C/libraries/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6d8b4.dir/testCCompiler.c.o
+/bin/arm-none-eabi-gcc-8.3.1    -o CMakeFiles/cmTC_6d8b4.dir/testCCompiler.c.o -c /home/pi/pico/RP2040-HAT-C/libraries/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_6d8b4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6d8b4.dir/link.txt --verbose=1
+/bin/arm-none-eabi-gcc-8.3.1 -rdynamic CMakeFiles/cmTC_6d8b4.dir/testCCompiler.c.o -o cmTC_6d8b4 
+arm-none-eabi-gcc-8.3.1: error: unrecognized command line option '-rdynamic'
+gmake[1]: *** [CMakeFiles/cmTC_6d8b4.dir/build.make:106: cmTC_6d8b4] Error 1
+gmake[1]: Leaving directory '/home/pi/pico/RP2040-HAT-C/libraries/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_6d8b4/fast] Error 2
+
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /bin/arm-none-eabi-gcc-8.3.1 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+/usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/bin/ld: /usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/lib/libc.a(lib_a-exit.o): in function `exit':
+/build/newlib-kGgvwE/newlib-3.3.0/build/arm-none-eabi/newlib/libc/stdlib/../../../../../newlib/libc/stdlib/exit.c:64: undefined reference to `_exit'
+collect2: error: ld returned 1 exit status
+
+
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: /home/pi/pico/RP2040-HAT-C/libraries/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_4efa5/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_4efa5.dir/build.make CMakeFiles/cmTC_4efa5.dir/build
+gmake[1]: Entering directory '/home/pi/pico/RP2040-HAT-C/libraries/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4efa5.dir/CMakeCCompilerABI.c.o
+/bin/arm-none-eabi-gcc-8.3.1   -v -o CMakeFiles/cmTC_4efa5.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.18/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/bin/arm-none-eabi-gcc-8.3.1
+Target: arm-none-eabi
+Configured with: ../configure --build=arm-linux-gnueabihf --prefix=/usr --includedir='/usr/lib/include' --mandir='/usr/lib/share/man' --infodir='/usr/lib/share/info' --sysconfdir=/etc --localstatedir=/var --disable-option-checking --disable-silent-rules --libdir='/usr/lib/lib/arm-linux-gnueabihf' --libexecdir='/usr/lib/lib/arm-linux-gnueabihf' --disable-maintainer-mode --disable-dependency-tracking --mandir=/usr/share/man --enable-languages=c,c++,lto --enable-multilib --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --enable-tls --build=arm-linux-gnueabihf --target=arm-none-eabi --with-system-zlib --with-gnu-as --with-gnu-ld --with-pkgversion=15:8-2019-q3-1+b1 --without-included-gettext --prefix=/usr/lib --infodir=/usr/share/doc/gcc-arm-none-eabi/info --htmldir=/usr/share/doc/gcc-arm-none-eabi/html --pdfdir=/usr/share/doc/gcc-arm-none-eabi/pdf --bindir=/usr/bin --libexecdir=/usr/lib --libdir=/usr/lib --disable-libstdc++-v3 --host=arm-linux-gnueabihf --with-headers=no --without-newlib --with-multilib-list=rmprofile CFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-3BFy9A/gcc-arm-none-eabi-8-2019-q3=. -fstack-protector-strong' CPPFLAGS='-Wdate-time -D_FORTIFY_SOURCE=2' CXXFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-3BFy9A/gcc-arm-none-eabi-8-2019-q3=. -fstack-protector-strong' FCFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-3BFy9A/gcc-arm-none-eabi-8-2019-q3=. -fstack-protector-strong' FFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-3BFy9A/gcc-arm-none-eabi-8-2019-q3=. -fstack-protector-strong' GCJFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-3BFy9A/gcc-arm-none-eabi-8-2019-q3=. -fstack-protector-strong' LDFLAGS=-Wl,-z,relro OBJCFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-3BFy9A/gcc-arm-none-eabi-8-2019-q3=. -fstack-protector-strong' OBJCXXFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-3BFy9A/gcc-arm-none-eabi-8-2019-q3=. -fstack-protector-strong' INHIBIT_LIBC_CFLAGS=-DUSE_TM_CLONE_REGISTRY=0 AR_FOR_TARGET=arm-none-eabi-ar AS_FOR_TARGET=arm-none-eabi-as LD_FOR_TARGET=arm-none-eabi-ld NM_FOR_TARGET=arm-none-eabi-nm OBJDUMP_FOR_TARGET=arm-none-eabi-objdump RANLIB_FOR_TARGET=arm-none-eabi-ranlib READELF_FOR_TARGET=arm-none-eabi-readelf STRIP_FOR_TARGET=arm-none-eabi-strip
+Thread model: single
+gcc version 8.3.1 20190703 (release) [gcc-8-branch revision 273027] (15:8-2019-q3-1+b1) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_4efa5.dir/CMakeCCompilerABI.c.o' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
+ /usr/lib/gcc/arm-none-eabi/8.3.1/cc1 -quiet -v -D__USES_INITFINI__ /usr/share/cmake-3.18/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mcpu=arm7tdmi -mfloat-abi=soft -marm -march=armv4t -auxbase-strip CMakeFiles/cmTC_4efa5.dir/CMakeCCompilerABI.c.o -version -o /tmp/ccrYNEJM.s
+GNU C17 (15:8-2019-q3-1+b1) version 8.3.1 20190703 (release) [gcc-8-branch revision 273027] (arm-none-eabi)
+	compiled by GNU C version 10.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.0, isl version isl-0.23-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/sys-include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/arm-none-eabi/8.3.1/include
+ /usr/lib/gcc/arm-none-eabi/8.3.1/include-fixed
+ /usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/include
+End of search list.
+GNU C17 (15:8-2019-q3-1+b1) version 8.3.1 20190703 (release) [gcc-8-branch revision 273027] (arm-none-eabi)
+	compiled by GNU C version 10.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.0, isl version isl-0.23-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 18311f357af908e02058b19d5bd71d4d
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_4efa5.dir/CMakeCCompilerABI.c.o' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
+ /usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/bin/as -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_4efa5.dir/CMakeCCompilerABI.c.o /tmp/ccrYNEJM.s
+GNU assembler version 2.34 (arm-none-eabi) using BFD version (2.34-4+rpi1+14) 2.34
+COMPILER_PATH=/usr/lib/gcc/arm-none-eabi/8.3.1/:/usr/lib/gcc/arm-none-eabi/8.3.1/:/usr/lib/gcc/arm-none-eabi/:/usr/lib/gcc/arm-none-eabi/8.3.1/:/usr/lib/gcc/arm-none-eabi/:/usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/bin/
+LIBRARY_PATH=/usr/lib/gcc/arm-none-eabi/8.3.1/:/usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_4efa5.dir/CMakeCCompilerABI.c.o' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
+Linking C executable cmTC_4efa5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4efa5.dir/link.txt --verbose=1
+/bin/arm-none-eabi-gcc-8.3.1  -v -rdynamic CMakeFiles/cmTC_4efa5.dir/CMakeCCompilerABI.c.o -o cmTC_4efa5 
+Using built-in specs.
+COLLECT_GCC=/bin/arm-none-eabi-gcc-8.3.1
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/arm-none-eabi/8.3.1/lto-wrapper
+arm-none-eabi-gcc-8.3.1: error: unrecognized command line option '-rdynamic'
+Target: arm-none-eabi
+Configured with: ../configure --build=arm-linux-gnueabihf --prefix=/usr --includedir='/usr/lib/include' --mandir='/usr/lib/share/man' --infodir='/usr/lib/share/info' --sysconfdir=/etc --localstatedir=/var --disable-option-checking --disable-silent-rules --libdir='/usr/lib/lib/arm-linux-gnueabihf' --libexecdir='/usr/lib/lib/arm-linux-gnueabihf' --disable-maintainer-mode --disable-dependency-tracking --mandir=/usr/share/man --enable-languages=c,c++,lto --enable-multilib --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --enable-tls --build=arm-linux-gnueabihf --target=arm-none-eabi --with-system-zlib --with-gnu-as --with-gnu-ld --with-pkgversion=15:8-2019-q3-1+b1 --without-included-gettext --prefix=/usr/lib --infodir=/usr/share/doc/gcc-arm-none-eabi/info --htmldir=/usr/share/doc/gcc-arm-none-eabi/html --pdfdir=/usr/share/doc/gcc-arm-none-eabi/pdf --bindir=/usr/bin --libexecdir=/usr/lib --libdir=/usr/lib --disable-libstdc++-v3 --host=arm-linux-gnueabihf --with-headers=no --without-newlib --with-multilib-list=rmprofile CFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-3BFy9A/gcc-arm-none-eabi-8-2019-q3=. -fstack-protector-strong' CPPFLAGS='-Wdate-time -D_FORTIFY_SOURCE=2' CXXFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-3BFy9A/gcc-arm-none-eabi-8-2019-q3=. -fstack-protector-strong' FCFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-3BFy9A/gcc-arm-none-eabi-8-2019-q3=. -fstack-protector-strong' FFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-3BFy9A/gcc-arm-none-eabi-8-2019-q3=. -fstack-protector-strong' GCJFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-3BFy9A/gcc-arm-none-eabi-8-2019-q3=. -fstack-protector-strong' LDFLAGS=-Wl,-z,relro OBJCFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-3BFy9A/gcc-arm-none-eabi-8-2019-q3=. -fstack-protector-strong' OBJCXXFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-3BFy9A/gcc-arm-none-eabi-8-2019-q3=. -fstack-protector-strong' INHIBIT_LIBC_CFLAGS=-DUSE_TM_CLONE_REGISTRY=0 AR_FOR_TARGET=arm-none-eabi-ar AS_FOR_TARGET=arm-none-eabi-as LD_FOR_TARGET=arm-none-eabi-ld NM_FOR_TARGET=arm-none-eabi-nm OBJDUMP_FOR_TARGET=arm-none-eabi-objdump RANLIB_FOR_TARGET=arm-none-eabi-ranlib READELF_FOR_TARGET=arm-none-eabi-readelf STRIP_FOR_TARGET=arm-none-eabi-strip
+Thread model: single
+gcc version 8.3.1 20190703 (release) [gcc-8-branch revision 273027] (15:8-2019-q3-1+b1) 
+gmake[1]: *** [CMakeFiles/cmTC_4efa5.dir/build.make:106: cmTC_4efa5] Error 1
+gmake[1]: Leaving directory '/home/pi/pico/RP2040-HAT-C/libraries/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_4efa5/fast] Error 2
+
+
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: /home/pi/pico/RP2040-HAT-C/libraries/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_2d45f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_2d45f.dir/build.make CMakeFiles/cmTC_2d45f.dir/build
+gmake[1]: Entering directory '/home/pi/pico/RP2040-HAT-C/libraries/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2d45f.dir/testCCompiler.c.o
+/bin/arm-none-eabi-gcc-8.3.1    -o CMakeFiles/cmTC_2d45f.dir/testCCompiler.c.o -c /home/pi/pico/RP2040-HAT-C/libraries/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_2d45f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2d45f.dir/link.txt --verbose=1
+/bin/arm-none-eabi-gcc-8.3.1 -rdynamic CMakeFiles/cmTC_2d45f.dir/testCCompiler.c.o -o cmTC_2d45f 
+arm-none-eabi-gcc-8.3.1: error: unrecognized command line option '-rdynamic'
+gmake[1]: *** [CMakeFiles/cmTC_2d45f.dir/build.make:106: cmTC_2d45f] Error 1
+gmake[1]: Leaving directory '/home/pi/pico/RP2040-HAT-C/libraries/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_2d45f/fast] Error 2
+
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /bin/arm-none-eabi-gcc-8.3.1 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+/usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/bin/ld: /usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/lib/libc.a(lib_a-exit.o): in function `exit':
+/build/newlib-kGgvwE/newlib-3.3.0/build/arm-none-eabi/newlib/libc/stdlib/../../../../../newlib/libc/stdlib/exit.c:64: undefined reference to `_exit'
+collect2: error: ld returned 1 exit status
+
+
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: /home/pi/pico/RP2040-HAT-C/libraries/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_e81e1/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e81e1.dir/build.make CMakeFiles/cmTC_e81e1.dir/build
+gmake[1]: Entering directory '/home/pi/pico/RP2040-HAT-C/libraries/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e81e1.dir/CMakeCCompilerABI.c.o
+/bin/arm-none-eabi-gcc-8.3.1   -v -o CMakeFiles/cmTC_e81e1.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.18/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/bin/arm-none-eabi-gcc-8.3.1
+Target: arm-none-eabi
+Configured with: ../configure --build=arm-linux-gnueabihf --prefix=/usr --includedir='/usr/lib/include' --mandir='/usr/lib/share/man' --infodir='/usr/lib/share/info' --sysconfdir=/etc --localstatedir=/var --disable-option-checking --disable-silent-rules --libdir='/usr/lib/lib/arm-linux-gnueabihf' --libexecdir='/usr/lib/lib/arm-linux-gnueabihf' --disable-maintainer-mode --disable-dependency-tracking --mandir=/usr/share/man --enable-languages=c,c++,lto --enable-multilib --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --enable-tls --build=arm-linux-gnueabihf --target=arm-none-eabi --with-system-zlib --with-gnu-as --with-gnu-ld --with-pkgversion=15:8-2019-q3-1+b1 --without-included-gettext --prefix=/usr/lib --infodir=/usr/share/doc/gcc-arm-none-eabi/info --htmldir=/usr/share/doc/gcc-arm-none-eabi/html --pdfdir=/usr/share/doc/gcc-arm-none-eabi/pdf --bindir=/usr/bin --libexecdir=/usr/lib --libdir=/usr/lib --disable-libstdc++-v3 --host=arm-linux-gnueabihf --with-headers=no --without-newlib --with-multilib-list=rmprofile CFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-3BFy9A/gcc-arm-none-eabi-8-2019-q3=. -fstack-protector-strong' CPPFLAGS='-Wdate-time -D_FORTIFY_SOURCE=2' CXXFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-3BFy9A/gcc-arm-none-eabi-8-2019-q3=. -fstack-protector-strong' FCFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-3BFy9A/gcc-arm-none-eabi-8-2019-q3=. -fstack-protector-strong' FFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-3BFy9A/gcc-arm-none-eabi-8-2019-q3=. -fstack-protector-strong' GCJFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-3BFy9A/gcc-arm-none-eabi-8-2019-q3=. -fstack-protector-strong' LDFLAGS=-Wl,-z,relro OBJCFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-3BFy9A/gcc-arm-none-eabi-8-2019-q3=. -fstack-protector-strong' OBJCXXFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-3BFy9A/gcc-arm-none-eabi-8-2019-q3=. -fstack-protector-strong' INHIBIT_LIBC_CFLAGS=-DUSE_TM_CLONE_REGISTRY=0 AR_FOR_TARGET=arm-none-eabi-ar AS_FOR_TARGET=arm-none-eabi-as LD_FOR_TARGET=arm-none-eabi-ld NM_FOR_TARGET=arm-none-eabi-nm OBJDUMP_FOR_TARGET=arm-none-eabi-objdump RANLIB_FOR_TARGET=arm-none-eabi-ranlib READELF_FOR_TARGET=arm-none-eabi-readelf STRIP_FOR_TARGET=arm-none-eabi-strip
+Thread model: single
+gcc version 8.3.1 20190703 (release) [gcc-8-branch revision 273027] (15:8-2019-q3-1+b1) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e81e1.dir/CMakeCCompilerABI.c.o' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
+ /usr/lib/gcc/arm-none-eabi/8.3.1/cc1 -quiet -v -D__USES_INITFINI__ /usr/share/cmake-3.18/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mcpu=arm7tdmi -mfloat-abi=soft -marm -march=armv4t -auxbase-strip CMakeFiles/cmTC_e81e1.dir/CMakeCCompilerABI.c.o -version -o /tmp/ccGhI3zN.s
+GNU C17 (15:8-2019-q3-1+b1) version 8.3.1 20190703 (release) [gcc-8-branch revision 273027] (arm-none-eabi)
+	compiled by GNU C version 10.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.0, isl version isl-0.23-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/sys-include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/arm-none-eabi/8.3.1/include
+ /usr/lib/gcc/arm-none-eabi/8.3.1/include-fixed
+ /usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/include
+End of search list.
+GNU C17 (15:8-2019-q3-1+b1) version 8.3.1 20190703 (release) [gcc-8-branch revision 273027] (arm-none-eabi)
+	compiled by GNU C version 10.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.0, isl version isl-0.23-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 18311f357af908e02058b19d5bd71d4d
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e81e1.dir/CMakeCCompilerABI.c.o' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
+ /usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/bin/as -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_e81e1.dir/CMakeCCompilerABI.c.o /tmp/ccGhI3zN.s
+GNU assembler version 2.34 (arm-none-eabi) using BFD version (2.34-4+rpi1+14) 2.34
+COMPILER_PATH=/usr/lib/gcc/arm-none-eabi/8.3.1/:/usr/lib/gcc/arm-none-eabi/8.3.1/:/usr/lib/gcc/arm-none-eabi/:/usr/lib/gcc/arm-none-eabi/8.3.1/:/usr/lib/gcc/arm-none-eabi/:/usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/bin/
+LIBRARY_PATH=/usr/lib/gcc/arm-none-eabi/8.3.1/:/usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e81e1.dir/CMakeCCompilerABI.c.o' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
+Linking C executable cmTC_e81e1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e81e1.dir/link.txt --verbose=1
+/bin/arm-none-eabi-gcc-8.3.1  -v -rdynamic CMakeFiles/cmTC_e81e1.dir/CMakeCCompilerABI.c.o -o cmTC_e81e1 
+Using built-in specs.
+COLLECT_GCC=/bin/arm-none-eabi-gcc-8.3.1
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/arm-none-eabi/8.3.1/lto-wrapper
+arm-none-eabi-gcc-8.3.1: error: unrecognized command line option '-rdynamic'
+Target: arm-none-eabi
+Configured with: ../configure --build=arm-linux-gnueabihf --prefix=/usr --includedir='/usr/lib/include' --mandir='/usr/lib/share/man' --infodir='/usr/lib/share/info' --sysconfdir=/etc --localstatedir=/var --disable-option-checking --disable-silent-rules --libdir='/usr/lib/lib/arm-linux-gnueabihf' --libexecdir='/usr/lib/lib/arm-linux-gnueabihf' --disable-maintainer-mode --disable-dependency-tracking --mandir=/usr/share/man --enable-languages=c,c++,lto --enable-multilib --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --enable-tls --build=arm-linux-gnueabihf --target=arm-none-eabi --with-system-zlib --with-gnu-as --with-gnu-ld --with-pkgversion=15:8-2019-q3-1+b1 --without-included-gettext --prefix=/usr/lib --infodir=/usr/share/doc/gcc-arm-none-eabi/info --htmldir=/usr/share/doc/gcc-arm-none-eabi/html --pdfdir=/usr/share/doc/gcc-arm-none-eabi/pdf --bindir=/usr/bin --libexecdir=/usr/lib --libdir=/usr/lib --disable-libstdc++-v3 --host=arm-linux-gnueabihf --with-headers=no --without-newlib --with-multilib-list=rmprofile CFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-3BFy9A/gcc-arm-none-eabi-8-2019-q3=. -fstack-protector-strong' CPPFLAGS='-Wdate-time -D_FORTIFY_SOURCE=2' CXXFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-3BFy9A/gcc-arm-none-eabi-8-2019-q3=. -fstack-protector-strong' FCFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-3BFy9A/gcc-arm-none-eabi-8-2019-q3=. -fstack-protector-strong' FFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-3BFy9A/gcc-arm-none-eabi-8-2019-q3=. -fstack-protector-strong' GCJFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-3BFy9A/gcc-arm-none-eabi-8-2019-q3=. -fstack-protector-strong' LDFLAGS=-Wl,-z,relro OBJCFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-3BFy9A/gcc-arm-none-eabi-8-2019-q3=. -fstack-protector-strong' OBJCXXFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-3BFy9A/gcc-arm-none-eabi-8-2019-q3=. -fstack-protector-strong' INHIBIT_LIBC_CFLAGS=-DUSE_TM_CLONE_REGISTRY=0 AR_FOR_TARGET=arm-none-eabi-ar AS_FOR_TARGET=arm-none-eabi-as LD_FOR_TARGET=arm-none-eabi-ld NM_FOR_TARGET=arm-none-eabi-nm OBJDUMP_FOR_TARGET=arm-none-eabi-objdump RANLIB_FOR_TARGET=arm-none-eabi-ranlib READELF_FOR_TARGET=arm-none-eabi-readelf STRIP_FOR_TARGET=arm-none-eabi-strip
+Thread model: single
+gcc version 8.3.1 20190703 (release) [gcc-8-branch revision 273027] (15:8-2019-q3-1+b1) 
+gmake[1]: *** [CMakeFiles/cmTC_e81e1.dir/build.make:106: cmTC_e81e1] Error 1
+gmake[1]: Leaving directory '/home/pi/pico/RP2040-HAT-C/libraries/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_e81e1/fast] Error 2
+
+
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: /home/pi/pico/RP2040-HAT-C/libraries/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_f313b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f313b.dir/build.make CMakeFiles/cmTC_f313b.dir/build
+gmake[1]: Entering directory '/home/pi/pico/RP2040-HAT-C/libraries/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f313b.dir/testCCompiler.c.o
+/bin/arm-none-eabi-gcc-8.3.1    -o CMakeFiles/cmTC_f313b.dir/testCCompiler.c.o -c /home/pi/pico/RP2040-HAT-C/libraries/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_f313b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f313b.dir/link.txt --verbose=1
+/bin/arm-none-eabi-gcc-8.3.1 -rdynamic CMakeFiles/cmTC_f313b.dir/testCCompiler.c.o -o cmTC_f313b 
+arm-none-eabi-gcc-8.3.1: error: unrecognized command line option '-rdynamic'
+gmake[1]: *** [CMakeFiles/cmTC_f313b.dir/build.make:106: cmTC_f313b] Error 1
+gmake[1]: Leaving directory '/home/pi/pico/RP2040-HAT-C/libraries/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_f313b/fast] Error 2
+
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /bin/arm-none-eabi-gcc-8.3.1 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+/usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/bin/ld: /usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/lib/libc.a(lib_a-exit.o): in function `exit':
+/build/newlib-kGgvwE/newlib-3.3.0/build/arm-none-eabi/newlib/libc/stdlib/../../../../../newlib/libc/stdlib/exit.c:64: undefined reference to `_exit'
+collect2: error: ld returned 1 exit status
+
+
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: /home/pi/pico/RP2040-HAT-C/libraries/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_b3ca8/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b3ca8.dir/build.make CMakeFiles/cmTC_b3ca8.dir/build
+gmake[1]: Entering directory '/home/pi/pico/RP2040-HAT-C/libraries/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b3ca8.dir/CMakeCCompilerABI.c.o
+/bin/arm-none-eabi-gcc-8.3.1   -v -o CMakeFiles/cmTC_b3ca8.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.18/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/bin/arm-none-eabi-gcc-8.3.1
+Target: arm-none-eabi
+Configured with: ../configure --build=arm-linux-gnueabihf --prefix=/usr --includedir='/usr/lib/include' --mandir='/usr/lib/share/man' --infodir='/usr/lib/share/info' --sysconfdir=/etc --localstatedir=/var --disable-option-checking --disable-silent-rules --libdir='/usr/lib/lib/arm-linux-gnueabihf' --libexecdir='/usr/lib/lib/arm-linux-gnueabihf' --disable-maintainer-mode --disable-dependency-tracking --mandir=/usr/share/man --enable-languages=c,c++,lto --enable-multilib --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --enable-tls --build=arm-linux-gnueabihf --target=arm-none-eabi --with-system-zlib --with-gnu-as --with-gnu-ld --with-pkgversion=15:8-2019-q3-1+b1 --without-included-gettext --prefix=/usr/lib --infodir=/usr/share/doc/gcc-arm-none-eabi/info --htmldir=/usr/share/doc/gcc-arm-none-eabi/html --pdfdir=/usr/share/doc/gcc-arm-none-eabi/pdf --bindir=/usr/bin --libexecdir=/usr/lib --libdir=/usr/lib --disable-libstdc++-v3 --host=arm-linux-gnueabihf --with-headers=no --without-newlib --with-multilib-list=rmprofile CFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-3BFy9A/gcc-arm-none-eabi-8-2019-q3=. -fstack-protector-strong' CPPFLAGS='-Wdate-time -D_FORTIFY_SOURCE=2' CXXFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-3BFy9A/gcc-arm-none-eabi-8-2019-q3=. -fstack-protector-strong' FCFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-3BFy9A/gcc-arm-none-eabi-8-2019-q3=. -fstack-protector-strong' FFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-3BFy9A/gcc-arm-none-eabi-8-2019-q3=. -fstack-protector-strong' GCJFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-3BFy9A/gcc-arm-none-eabi-8-2019-q3=. -fstack-protector-strong' LDFLAGS=-Wl,-z,relro OBJCFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-3BFy9A/gcc-arm-none-eabi-8-2019-q3=. -fstack-protector-strong' OBJCXXFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-3BFy9A/gcc-arm-none-eabi-8-2019-q3=. -fstack-protector-strong' INHIBIT_LIBC_CFLAGS=-DUSE_TM_CLONE_REGISTRY=0 AR_FOR_TARGET=arm-none-eabi-ar AS_FOR_TARGET=arm-none-eabi-as LD_FOR_TARGET=arm-none-eabi-ld NM_FOR_TARGET=arm-none-eabi-nm OBJDUMP_FOR_TARGET=arm-none-eabi-objdump RANLIB_FOR_TARGET=arm-none-eabi-ranlib READELF_FOR_TARGET=arm-none-eabi-readelf STRIP_FOR_TARGET=arm-none-eabi-strip
+Thread model: single
+gcc version 8.3.1 20190703 (release) [gcc-8-branch revision 273027] (15:8-2019-q3-1+b1) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b3ca8.dir/CMakeCCompilerABI.c.o' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
+ /usr/lib/gcc/arm-none-eabi/8.3.1/cc1 -quiet -v -D__USES_INITFINI__ /usr/share/cmake-3.18/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mcpu=arm7tdmi -mfloat-abi=soft -marm -march=armv4t -auxbase-strip CMakeFiles/cmTC_b3ca8.dir/CMakeCCompilerABI.c.o -version -o /tmp/ccwCELi9.s
+GNU C17 (15:8-2019-q3-1+b1) version 8.3.1 20190703 (release) [gcc-8-branch revision 273027] (arm-none-eabi)
+	compiled by GNU C version 10.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.0, isl version isl-0.23-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/sys-include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/arm-none-eabi/8.3.1/include
+ /usr/lib/gcc/arm-none-eabi/8.3.1/include-fixed
+ /usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/include
+End of search list.
+GNU C17 (15:8-2019-q3-1+b1) version 8.3.1 20190703 (release) [gcc-8-branch revision 273027] (arm-none-eabi)
+	compiled by GNU C version 10.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.0, isl version isl-0.23-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 18311f357af908e02058b19d5bd71d4d
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b3ca8.dir/CMakeCCompilerABI.c.o' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
+ /usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/bin/as -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_b3ca8.dir/CMakeCCompilerABI.c.o /tmp/ccwCELi9.s
+GNU assembler version 2.34 (arm-none-eabi) using BFD version (2.34-4+rpi1+14) 2.34
+COMPILER_PATH=/usr/lib/gcc/arm-none-eabi/8.3.1/:/usr/lib/gcc/arm-none-eabi/8.3.1/:/usr/lib/gcc/arm-none-eabi/:/usr/lib/gcc/arm-none-eabi/8.3.1/:/usr/lib/gcc/arm-none-eabi/:/usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/bin/
+LIBRARY_PATH=/usr/lib/gcc/arm-none-eabi/8.3.1/:/usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b3ca8.dir/CMakeCCompilerABI.c.o' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
+Linking C executable cmTC_b3ca8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b3ca8.dir/link.txt --verbose=1
+/bin/arm-none-eabi-gcc-8.3.1  -v -rdynamic CMakeFiles/cmTC_b3ca8.dir/CMakeCCompilerABI.c.o -o cmTC_b3ca8 
+Using built-in specs.
+COLLECT_GCC=/bin/arm-none-eabi-gcc-8.3.1
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/arm-none-eabi/8.3.1/lto-wrapper
+arm-none-eabi-gcc-8.3.1: error: unrecognized command line option '-rdynamic'
+Target: arm-none-eabi
+Configured with: ../configure --build=arm-linux-gnueabihf --prefix=/usr --includedir='/usr/lib/include' --mandir='/usr/lib/share/man' --infodir='/usr/lib/share/info' --sysconfdir=/etc --localstatedir=/var --disable-option-checking --disable-silent-rules --libdir='/usr/lib/lib/arm-linux-gnueabihf' --libexecdir='/usr/lib/lib/arm-linux-gnueabihf' --disable-maintainer-mode --disable-dependency-tracking --mandir=/usr/share/man --enable-languages=c,c++,lto --enable-multilib --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --enable-tls --build=arm-linux-gnueabihf --target=arm-none-eabi --with-system-zlib --with-gnu-as --with-gnu-ld --with-pkgversion=15:8-2019-q3-1+b1 --without-included-gettext --prefix=/usr/lib --infodir=/usr/share/doc/gcc-arm-none-eabi/info --htmldir=/usr/share/doc/gcc-arm-none-eabi/html --pdfdir=/usr/share/doc/gcc-arm-none-eabi/pdf --bindir=/usr/bin --libexecdir=/usr/lib --libdir=/usr/lib --disable-libstdc++-v3 --host=arm-linux-gnueabihf --with-headers=no --without-newlib --with-multilib-list=rmprofile CFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-3BFy9A/gcc-arm-none-eabi-8-2019-q3=. -fstack-protector-strong' CPPFLAGS='-Wdate-time -D_FORTIFY_SOURCE=2' CXXFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-3BFy9A/gcc-arm-none-eabi-8-2019-q3=. -fstack-protector-strong' FCFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-3BFy9A/gcc-arm-none-eabi-8-2019-q3=. -fstack-protector-strong' FFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-3BFy9A/gcc-arm-none-eabi-8-2019-q3=. -fstack-protector-strong' GCJFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-3BFy9A/gcc-arm-none-eabi-8-2019-q3=. -fstack-protector-strong' LDFLAGS=-Wl,-z,relro OBJCFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-3BFy9A/gcc-arm-none-eabi-8-2019-q3=. -fstack-protector-strong' OBJCXXFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-3BFy9A/gcc-arm-none-eabi-8-2019-q3=. -fstack-protector-strong' INHIBIT_LIBC_CFLAGS=-DUSE_TM_CLONE_REGISTRY=0 AR_FOR_TARGET=arm-none-eabi-ar AS_FOR_TARGET=arm-none-eabi-as LD_FOR_TARGET=arm-none-eabi-ld NM_FOR_TARGET=arm-none-eabi-nm OBJDUMP_FOR_TARGET=arm-none-eabi-objdump RANLIB_FOR_TARGET=arm-none-eabi-ranlib READELF_FOR_TARGET=arm-none-eabi-readelf STRIP_FOR_TARGET=arm-none-eabi-strip
+Thread model: single
+gcc version 8.3.1 20190703 (release) [gcc-8-branch revision 273027] (15:8-2019-q3-1+b1) 
+gmake[1]: *** [CMakeFiles/cmTC_b3ca8.dir/build.make:106: cmTC_b3ca8] Error 1
+gmake[1]: Leaving directory '/home/pi/pico/RP2040-HAT-C/libraries/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_b3ca8/fast] Error 2
+
+
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: /home/pi/pico/RP2040-HAT-C/libraries/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_db6ca/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_db6ca.dir/build.make CMakeFiles/cmTC_db6ca.dir/build
+gmake[1]: Entering directory '/home/pi/pico/RP2040-HAT-C/libraries/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_db6ca.dir/testCCompiler.c.o
+/bin/arm-none-eabi-gcc-8.3.1    -o CMakeFiles/cmTC_db6ca.dir/testCCompiler.c.o -c /home/pi/pico/RP2040-HAT-C/libraries/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_db6ca
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_db6ca.dir/link.txt --verbose=1
+/bin/arm-none-eabi-gcc-8.3.1 -rdynamic CMakeFiles/cmTC_db6ca.dir/testCCompiler.c.o -o cmTC_db6ca 
+arm-none-eabi-gcc-8.3.1: error: unrecognized command line option '-rdynamic'
+gmake[1]: *** [CMakeFiles/cmTC_db6ca.dir/build.make:106: cmTC_db6ca] Error 1
+gmake[1]: Leaving directory '/home/pi/pico/RP2040-HAT-C/libraries/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_db6ca/fast] Error 2
+
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /bin/arm-none-eabi-gcc-8.3.1 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+/usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/bin/ld: /usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/lib/libc.a(lib_a-exit.o): in function `exit':
+/build/newlib-kGgvwE/newlib-3.3.0/build/arm-none-eabi/newlib/libc/stdlib/../../../../../newlib/libc/stdlib/exit.c:64: undefined reference to `_exit'
+collect2: error: ld returned 1 exit status
+
+
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: /home/pi/pico/RP2040-HAT-C/libraries/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_d9a1c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d9a1c.dir/build.make CMakeFiles/cmTC_d9a1c.dir/build
+gmake[1]: Entering directory '/home/pi/pico/RP2040-HAT-C/libraries/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d9a1c.dir/CMakeCCompilerABI.c.o
+/bin/arm-none-eabi-gcc-8.3.1   -v -o CMakeFiles/cmTC_d9a1c.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.18/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/bin/arm-none-eabi-gcc-8.3.1
+Target: arm-none-eabi
+Configured with: ../configure --build=arm-linux-gnueabihf --prefix=/usr --includedir='/usr/lib/include' --mandir='/usr/lib/share/man' --infodir='/usr/lib/share/info' --sysconfdir=/etc --localstatedir=/var --disable-option-checking --disable-silent-rules --libdir='/usr/lib/lib/arm-linux-gnueabihf' --libexecdir='/usr/lib/lib/arm-linux-gnueabihf' --disable-maintainer-mode --disable-dependency-tracking --mandir=/usr/share/man --enable-languages=c,c++,lto --enable-multilib --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --enable-tls --build=arm-linux-gnueabihf --target=arm-none-eabi --with-system-zlib --with-gnu-as --with-gnu-ld --with-pkgversion=15:8-2019-q3-1+b1 --without-included-gettext --prefix=/usr/lib --infodir=/usr/share/doc/gcc-arm-none-eabi/info --htmldir=/usr/share/doc/gcc-arm-none-eabi/html --pdfdir=/usr/share/doc/gcc-arm-none-eabi/pdf --bindir=/usr/bin --libexecdir=/usr/lib --libdir=/usr/lib --disable-libstdc++-v3 --host=arm-linux-gnueabihf --with-headers=no --without-newlib --with-multilib-list=rmprofile CFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-3BFy9A/gcc-arm-none-eabi-8-2019-q3=. -fstack-protector-strong' CPPFLAGS='-Wdate-time -D_FORTIFY_SOURCE=2' CXXFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-3BFy9A/gcc-arm-none-eabi-8-2019-q3=. -fstack-protector-strong' FCFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-3BFy9A/gcc-arm-none-eabi-8-2019-q3=. -fstack-protector-strong' FFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-3BFy9A/gcc-arm-none-eabi-8-2019-q3=. -fstack-protector-strong' GCJFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-3BFy9A/gcc-arm-none-eabi-8-2019-q3=. -fstack-protector-strong' LDFLAGS=-Wl,-z,relro OBJCFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-3BFy9A/gcc-arm-none-eabi-8-2019-q3=. -fstack-protector-strong' OBJCXXFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-3BFy9A/gcc-arm-none-eabi-8-2019-q3=. -fstack-protector-strong' INHIBIT_LIBC_CFLAGS=-DUSE_TM_CLONE_REGISTRY=0 AR_FOR_TARGET=arm-none-eabi-ar AS_FOR_TARGET=arm-none-eabi-as LD_FOR_TARGET=arm-none-eabi-ld NM_FOR_TARGET=arm-none-eabi-nm OBJDUMP_FOR_TARGET=arm-none-eabi-objdump RANLIB_FOR_TARGET=arm-none-eabi-ranlib READELF_FOR_TARGET=arm-none-eabi-readelf STRIP_FOR_TARGET=arm-none-eabi-strip
+Thread model: single
+gcc version 8.3.1 20190703 (release) [gcc-8-branch revision 273027] (15:8-2019-q3-1+b1) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d9a1c.dir/CMakeCCompilerABI.c.o' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
+ /usr/lib/gcc/arm-none-eabi/8.3.1/cc1 -quiet -v -D__USES_INITFINI__ /usr/share/cmake-3.18/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mcpu=arm7tdmi -mfloat-abi=soft -marm -march=armv4t -auxbase-strip CMakeFiles/cmTC_d9a1c.dir/CMakeCCompilerABI.c.o -version -o /tmp/cc1A2CDt.s
+GNU C17 (15:8-2019-q3-1+b1) version 8.3.1 20190703 (release) [gcc-8-branch revision 273027] (arm-none-eabi)
+	compiled by GNU C version 10.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.0, isl version isl-0.23-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/sys-include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/arm-none-eabi/8.3.1/include
+ /usr/lib/gcc/arm-none-eabi/8.3.1/include-fixed
+ /usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/include
+End of search list.
+GNU C17 (15:8-2019-q3-1+b1) version 8.3.1 20190703 (release) [gcc-8-branch revision 273027] (arm-none-eabi)
+	compiled by GNU C version 10.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.0, isl version isl-0.23-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 18311f357af908e02058b19d5bd71d4d
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d9a1c.dir/CMakeCCompilerABI.c.o' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
+ /usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/bin/as -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_d9a1c.dir/CMakeCCompilerABI.c.o /tmp/cc1A2CDt.s
+GNU assembler version 2.34 (arm-none-eabi) using BFD version (2.34-4+rpi1+14) 2.34
+COMPILER_PATH=/usr/lib/gcc/arm-none-eabi/8.3.1/:/usr/lib/gcc/arm-none-eabi/8.3.1/:/usr/lib/gcc/arm-none-eabi/:/usr/lib/gcc/arm-none-eabi/8.3.1/:/usr/lib/gcc/arm-none-eabi/:/usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/bin/
+LIBRARY_PATH=/usr/lib/gcc/arm-none-eabi/8.3.1/:/usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d9a1c.dir/CMakeCCompilerABI.c.o' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
+Linking C executable cmTC_d9a1c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d9a1c.dir/link.txt --verbose=1
+/bin/arm-none-eabi-gcc-8.3.1  -v -rdynamic CMakeFiles/cmTC_d9a1c.dir/CMakeCCompilerABI.c.o -o cmTC_d9a1c 
+Using built-in specs.
+COLLECT_GCC=/bin/arm-none-eabi-gcc-8.3.1
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/arm-none-eabi/8.3.1/lto-wrapper
+arm-none-eabi-gcc-8.3.1: error: unrecognized command line option '-rdynamic'
+Target: arm-none-eabi
+Configured with: ../configure --build=arm-linux-gnueabihf --prefix=/usr --includedir='/usr/lib/include' --mandir='/usr/lib/share/man' --infodir='/usr/lib/share/info' --sysconfdir=/etc --localstatedir=/var --disable-option-checking --disable-silent-rules --libdir='/usr/lib/lib/arm-linux-gnueabihf' --libexecdir='/usr/lib/lib/arm-linux-gnueabihf' --disable-maintainer-mode --disable-dependency-tracking --mandir=/usr/share/man --enable-languages=c,c++,lto --enable-multilib --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --enable-tls --build=arm-linux-gnueabihf --target=arm-none-eabi --with-system-zlib --with-gnu-as --with-gnu-ld --with-pkgversion=15:8-2019-q3-1+b1 --without-included-gettext --prefix=/usr/lib --infodir=/usr/share/doc/gcc-arm-none-eabi/info --htmldir=/usr/share/doc/gcc-arm-none-eabi/html --pdfdir=/usr/share/doc/gcc-arm-none-eabi/pdf --bindir=/usr/bin --libexecdir=/usr/lib --libdir=/usr/lib --disable-libstdc++-v3 --host=arm-linux-gnueabihf --with-headers=no --without-newlib --with-multilib-list=rmprofile CFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-3BFy9A/gcc-arm-none-eabi-8-2019-q3=. -fstack-protector-strong' CPPFLAGS='-Wdate-time -D_FORTIFY_SOURCE=2' CXXFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-3BFy9A/gcc-arm-none-eabi-8-2019-q3=. -fstack-protector-strong' FCFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-3BFy9A/gcc-arm-none-eabi-8-2019-q3=. -fstack-protector-strong' FFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-3BFy9A/gcc-arm-none-eabi-8-2019-q3=. -fstack-protector-strong' GCJFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-3BFy9A/gcc-arm-none-eabi-8-2019-q3=. -fstack-protector-strong' LDFLAGS=-Wl,-z,relro OBJCFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-3BFy9A/gcc-arm-none-eabi-8-2019-q3=. -fstack-protector-strong' OBJCXXFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-3BFy9A/gcc-arm-none-eabi-8-2019-q3=. -fstack-protector-strong' INHIBIT_LIBC_CFLAGS=-DUSE_TM_CLONE_REGISTRY=0 AR_FOR_TARGET=arm-none-eabi-ar AS_FOR_TARGET=arm-none-eabi-as LD_FOR_TARGET=arm-none-eabi-ld NM_FOR_TARGET=arm-none-eabi-nm OBJDUMP_FOR_TARGET=arm-none-eabi-objdump RANLIB_FOR_TARGET=arm-none-eabi-ranlib READELF_FOR_TARGET=arm-none-eabi-readelf STRIP_FOR_TARGET=arm-none-eabi-strip
+Thread model: single
+gcc version 8.3.1 20190703 (release) [gcc-8-branch revision 273027] (15:8-2019-q3-1+b1) 
+gmake[1]: *** [CMakeFiles/cmTC_d9a1c.dir/build.make:106: cmTC_d9a1c] Error 1
+gmake[1]: Leaving directory '/home/pi/pico/RP2040-HAT-C/libraries/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_d9a1c/fast] Error 2
+
+
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: /home/pi/pico/RP2040-HAT-C/libraries/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_491af/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_491af.dir/build.make CMakeFiles/cmTC_491af.dir/build
+gmake[1]: Entering directory '/home/pi/pico/RP2040-HAT-C/libraries/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_491af.dir/testCCompiler.c.o
+/bin/arm-none-eabi-gcc-8.3.1    -o CMakeFiles/cmTC_491af.dir/testCCompiler.c.o -c /home/pi/pico/RP2040-HAT-C/libraries/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_491af
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_491af.dir/link.txt --verbose=1
+/bin/arm-none-eabi-gcc-8.3.1 -rdynamic CMakeFiles/cmTC_491af.dir/testCCompiler.c.o -o cmTC_491af 
+arm-none-eabi-gcc-8.3.1: error: unrecognized command line option '-rdynamic'
+gmake[1]: *** [CMakeFiles/cmTC_491af.dir/build.make:106: cmTC_491af] Error 1
+gmake[1]: Leaving directory '/home/pi/pico/RP2040-HAT-C/libraries/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_491af/fast] Error 2
+
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /bin/arm-none-eabi-gcc-8.3.1 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+/usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/bin/ld: /usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/lib/libc.a(lib_a-exit.o): in function `exit':
+/build/newlib-kGgvwE/newlib-3.3.0/build/arm-none-eabi/newlib/libc/stdlib/../../../../../newlib/libc/stdlib/exit.c:64: undefined reference to `_exit'
+collect2: error: ld returned 1 exit status
+
+
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: /home/pi/pico/RP2040-HAT-C/libraries/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_6f04c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_6f04c.dir/build.make CMakeFiles/cmTC_6f04c.dir/build
+gmake[1]: Entering directory '/home/pi/pico/RP2040-HAT-C/libraries/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6f04c.dir/CMakeCCompilerABI.c.o
+/bin/arm-none-eabi-gcc-8.3.1   -v -o CMakeFiles/cmTC_6f04c.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.18/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/bin/arm-none-eabi-gcc-8.3.1
+Target: arm-none-eabi
+Configured with: ../configure --build=arm-linux-gnueabihf --prefix=/usr --includedir='/usr/lib/include' --mandir='/usr/lib/share/man' --infodir='/usr/lib/share/info' --sysconfdir=/etc --localstatedir=/var --disable-option-checking --disable-silent-rules --libdir='/usr/lib/lib/arm-linux-gnueabihf' --libexecdir='/usr/lib/lib/arm-linux-gnueabihf' --disable-maintainer-mode --disable-dependency-tracking --mandir=/usr/share/man --enable-languages=c,c++,lto --enable-multilib --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --enable-tls --build=arm-linux-gnueabihf --target=arm-none-eabi --with-system-zlib --with-gnu-as --with-gnu-ld --with-pkgversion=15:8-2019-q3-1+b1 --without-included-gettext --prefix=/usr/lib --infodir=/usr/share/doc/gcc-arm-none-eabi/info --htmldir=/usr/share/doc/gcc-arm-none-eabi/html --pdfdir=/usr/share/doc/gcc-arm-none-eabi/pdf --bindir=/usr/bin --libexecdir=/usr/lib --libdir=/usr/lib --disable-libstdc++-v3 --host=arm-linux-gnueabihf --with-headers=no --without-newlib --with-multilib-list=rmprofile CFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-3BFy9A/gcc-arm-none-eabi-8-2019-q3=. -fstack-protector-strong' CPPFLAGS='-Wdate-time -D_FORTIFY_SOURCE=2' CXXFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-3BFy9A/gcc-arm-none-eabi-8-2019-q3=. -fstack-protector-strong' FCFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-3BFy9A/gcc-arm-none-eabi-8-2019-q3=. -fstack-protector-strong' FFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-3BFy9A/gcc-arm-none-eabi-8-2019-q3=. -fstack-protector-strong' GCJFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-3BFy9A/gcc-arm-none-eabi-8-2019-q3=. -fstack-protector-strong' LDFLAGS=-Wl,-z,relro OBJCFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-3BFy9A/gcc-arm-none-eabi-8-2019-q3=. -fstack-protector-strong' OBJCXXFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-3BFy9A/gcc-arm-none-eabi-8-2019-q3=. -fstack-protector-strong' INHIBIT_LIBC_CFLAGS=-DUSE_TM_CLONE_REGISTRY=0 AR_FOR_TARGET=arm-none-eabi-ar AS_FOR_TARGET=arm-none-eabi-as LD_FOR_TARGET=arm-none-eabi-ld NM_FOR_TARGET=arm-none-eabi-nm OBJDUMP_FOR_TARGET=arm-none-eabi-objdump RANLIB_FOR_TARGET=arm-none-eabi-ranlib READELF_FOR_TARGET=arm-none-eabi-readelf STRIP_FOR_TARGET=arm-none-eabi-strip
+Thread model: single
+gcc version 8.3.1 20190703 (release) [gcc-8-branch revision 273027] (15:8-2019-q3-1+b1) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_6f04c.dir/CMakeCCompilerABI.c.o' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
+ /usr/lib/gcc/arm-none-eabi/8.3.1/cc1 -quiet -v -D__USES_INITFINI__ /usr/share/cmake-3.18/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mcpu=arm7tdmi -mfloat-abi=soft -marm -march=armv4t -auxbase-strip CMakeFiles/cmTC_6f04c.dir/CMakeCCompilerABI.c.o -version -o /tmp/ccuXMUay.s
+GNU C17 (15:8-2019-q3-1+b1) version 8.3.1 20190703 (release) [gcc-8-branch revision 273027] (arm-none-eabi)
+	compiled by GNU C version 10.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.0, isl version isl-0.23-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/sys-include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/arm-none-eabi/8.3.1/include
+ /usr/lib/gcc/arm-none-eabi/8.3.1/include-fixed
+ /usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/include
+End of search list.
+GNU C17 (15:8-2019-q3-1+b1) version 8.3.1 20190703 (release) [gcc-8-branch revision 273027] (arm-none-eabi)
+	compiled by GNU C version 10.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.0, isl version isl-0.23-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 18311f357af908e02058b19d5bd71d4d
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_6f04c.dir/CMakeCCompilerABI.c.o' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
+ /usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/bin/as -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_6f04c.dir/CMakeCCompilerABI.c.o /tmp/ccuXMUay.s
+GNU assembler version 2.34 (arm-none-eabi) using BFD version (2.34-4+rpi1+14) 2.34
+COMPILER_PATH=/usr/lib/gcc/arm-none-eabi/8.3.1/:/usr/lib/gcc/arm-none-eabi/8.3.1/:/usr/lib/gcc/arm-none-eabi/:/usr/lib/gcc/arm-none-eabi/8.3.1/:/usr/lib/gcc/arm-none-eabi/:/usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/bin/
+LIBRARY_PATH=/usr/lib/gcc/arm-none-eabi/8.3.1/:/usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_6f04c.dir/CMakeCCompilerABI.c.o' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
+Linking C executable cmTC_6f04c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6f04c.dir/link.txt --verbose=1
+/bin/arm-none-eabi-gcc-8.3.1  -v -rdynamic CMakeFiles/cmTC_6f04c.dir/CMakeCCompilerABI.c.o -o cmTC_6f04c 
+Using built-in specs.
+COLLECT_GCC=/bin/arm-none-eabi-gcc-8.3.1
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/arm-none-eabi/8.3.1/lto-wrapper
+arm-none-eabi-gcc-8.3.1: error: unrecognized command line option '-rdynamic'
+Target: arm-none-eabi
+Configured with: ../configure --build=arm-linux-gnueabihf --prefix=/usr --includedir='/usr/lib/include' --mandir='/usr/lib/share/man' --infodir='/usr/lib/share/info' --sysconfdir=/etc --localstatedir=/var --disable-option-checking --disable-silent-rules --libdir='/usr/lib/lib/arm-linux-gnueabihf' --libexecdir='/usr/lib/lib/arm-linux-gnueabihf' --disable-maintainer-mode --disable-dependency-tracking --mandir=/usr/share/man --enable-languages=c,c++,lto --enable-multilib --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --enable-tls --build=arm-linux-gnueabihf --target=arm-none-eabi --with-system-zlib --with-gnu-as --with-gnu-ld --with-pkgversion=15:8-2019-q3-1+b1 --without-included-gettext --prefix=/usr/lib --infodir=/usr/share/doc/gcc-arm-none-eabi/info --htmldir=/usr/share/doc/gcc-arm-none-eabi/html --pdfdir=/usr/share/doc/gcc-arm-none-eabi/pdf --bindir=/usr/bin --libexecdir=/usr/lib --libdir=/usr/lib --disable-libstdc++-v3 --host=arm-linux-gnueabihf --with-headers=no --without-newlib --with-multilib-list=rmprofile CFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-3BFy9A/gcc-arm-none-eabi-8-2019-q3=. -fstack-protector-strong' CPPFLAGS='-Wdate-time -D_FORTIFY_SOURCE=2' CXXFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-3BFy9A/gcc-arm-none-eabi-8-2019-q3=. -fstack-protector-strong' FCFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-3BFy9A/gcc-arm-none-eabi-8-2019-q3=. -fstack-protector-strong' FFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-3BFy9A/gcc-arm-none-eabi-8-2019-q3=. -fstack-protector-strong' GCJFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-3BFy9A/gcc-arm-none-eabi-8-2019-q3=. -fstack-protector-strong' LDFLAGS=-Wl,-z,relro OBJCFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-3BFy9A/gcc-arm-none-eabi-8-2019-q3=. -fstack-protector-strong' OBJCXXFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-3BFy9A/gcc-arm-none-eabi-8-2019-q3=. -fstack-protector-strong' INHIBIT_LIBC_CFLAGS=-DUSE_TM_CLONE_REGISTRY=0 AR_FOR_TARGET=arm-none-eabi-ar AS_FOR_TARGET=arm-none-eabi-as LD_FOR_TARGET=arm-none-eabi-ld NM_FOR_TARGET=arm-none-eabi-nm OBJDUMP_FOR_TARGET=arm-none-eabi-objdump RANLIB_FOR_TARGET=arm-none-eabi-ranlib READELF_FOR_TARGET=arm-none-eabi-readelf STRIP_FOR_TARGET=arm-none-eabi-strip
+Thread model: single
+gcc version 8.3.1 20190703 (release) [gcc-8-branch revision 273027] (15:8-2019-q3-1+b1) 
+gmake[1]: *** [CMakeFiles/cmTC_6f04c.dir/build.make:106: cmTC_6f04c] Error 1
+gmake[1]: Leaving directory '/home/pi/pico/RP2040-HAT-C/libraries/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_6f04c/fast] Error 2
+
+
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: /home/pi/pico/RP2040-HAT-C/libraries/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_c6e59/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_c6e59.dir/build.make CMakeFiles/cmTC_c6e59.dir/build
+gmake[1]: Entering directory '/home/pi/pico/RP2040-HAT-C/libraries/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c6e59.dir/testCCompiler.c.o
+/bin/arm-none-eabi-gcc-8.3.1    -o CMakeFiles/cmTC_c6e59.dir/testCCompiler.c.o -c /home/pi/pico/RP2040-HAT-C/libraries/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_c6e59
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c6e59.dir/link.txt --verbose=1
+/bin/arm-none-eabi-gcc-8.3.1 -rdynamic CMakeFiles/cmTC_c6e59.dir/testCCompiler.c.o -o cmTC_c6e59 
+arm-none-eabi-gcc-8.3.1: error: unrecognized command line option '-rdynamic'
+gmake[1]: *** [CMakeFiles/cmTC_c6e59.dir/build.make:106: cmTC_c6e59] Error 1
+gmake[1]: Leaving directory '/home/pi/pico/RP2040-HAT-C/libraries/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_c6e59/fast] Error 2
+
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /bin/arm-none-eabi-gcc-8.3.1 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+/usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/bin/ld: /usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/lib/libc.a(lib_a-exit.o): in function `exit':
+/build/newlib-kGgvwE/newlib-3.3.0/build/arm-none-eabi/newlib/libc/stdlib/../../../../../newlib/libc/stdlib/exit.c:64: undefined reference to `_exit'
+collect2: error: ld returned 1 exit status
+
+
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: /home/pi/pico/RP2040-HAT-C/libraries/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_83fc7/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_83fc7.dir/build.make CMakeFiles/cmTC_83fc7.dir/build
+gmake[1]: Entering directory '/home/pi/pico/RP2040-HAT-C/libraries/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_83fc7.dir/CMakeCCompilerABI.c.o
+/bin/arm-none-eabi-gcc-8.3.1   -v -o CMakeFiles/cmTC_83fc7.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.18/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/bin/arm-none-eabi-gcc-8.3.1
+Target: arm-none-eabi
+Configured with: ../configure --build=arm-linux-gnueabihf --prefix=/usr --includedir='/usr/lib/include' --mandir='/usr/lib/share/man' --infodir='/usr/lib/share/info' --sysconfdir=/etc --localstatedir=/var --disable-option-checking --disable-silent-rules --libdir='/usr/lib/lib/arm-linux-gnueabihf' --libexecdir='/usr/lib/lib/arm-linux-gnueabihf' --disable-maintainer-mode --disable-dependency-tracking --mandir=/usr/share/man --enable-languages=c,c++,lto --enable-multilib --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --enable-tls --build=arm-linux-gnueabihf --target=arm-none-eabi --with-system-zlib --with-gnu-as --with-gnu-ld --with-pkgversion=15:8-2019-q3-1+b1 --without-included-gettext --prefix=/usr/lib --infodir=/usr/share/doc/gcc-arm-none-eabi/info --htmldir=/usr/share/doc/gcc-arm-none-eabi/html --pdfdir=/usr/share/doc/gcc-arm-none-eabi/pdf --bindir=/usr/bin --libexecdir=/usr/lib --libdir=/usr/lib --disable-libstdc++-v3 --host=arm-linux-gnueabihf --with-headers=no --without-newlib --with-multilib-list=rmprofile CFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-3BFy9A/gcc-arm-none-eabi-8-2019-q3=. -fstack-protector-strong' CPPFLAGS='-Wdate-time -D_FORTIFY_SOURCE=2' CXXFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-3BFy9A/gcc-arm-none-eabi-8-2019-q3=. -fstack-protector-strong' FCFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-3BFy9A/gcc-arm-none-eabi-8-2019-q3=. -fstack-protector-strong' FFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-3BFy9A/gcc-arm-none-eabi-8-2019-q3=. -fstack-protector-strong' GCJFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-3BFy9A/gcc-arm-none-eabi-8-2019-q3=. -fstack-protector-strong' LDFLAGS=-Wl,-z,relro OBJCFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-3BFy9A/gcc-arm-none-eabi-8-2019-q3=. -fstack-protector-strong' OBJCXXFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-3BFy9A/gcc-arm-none-eabi-8-2019-q3=. -fstack-protector-strong' INHIBIT_LIBC_CFLAGS=-DUSE_TM_CLONE_REGISTRY=0 AR_FOR_TARGET=arm-none-eabi-ar AS_FOR_TARGET=arm-none-eabi-as LD_FOR_TARGET=arm-none-eabi-ld NM_FOR_TARGET=arm-none-eabi-nm OBJDUMP_FOR_TARGET=arm-none-eabi-objdump RANLIB_FOR_TARGET=arm-none-eabi-ranlib READELF_FOR_TARGET=arm-none-eabi-readelf STRIP_FOR_TARGET=arm-none-eabi-strip
+Thread model: single
+gcc version 8.3.1 20190703 (release) [gcc-8-branch revision 273027] (15:8-2019-q3-1+b1) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_83fc7.dir/CMakeCCompilerABI.c.o' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
+ /usr/lib/gcc/arm-none-eabi/8.3.1/cc1 -quiet -v -D__USES_INITFINI__ /usr/share/cmake-3.18/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mcpu=arm7tdmi -mfloat-abi=soft -marm -march=armv4t -auxbase-strip CMakeFiles/cmTC_83fc7.dir/CMakeCCompilerABI.c.o -version -o /tmp/ccOCA7UQ.s
+GNU C17 (15:8-2019-q3-1+b1) version 8.3.1 20190703 (release) [gcc-8-branch revision 273027] (arm-none-eabi)
+	compiled by GNU C version 10.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.0, isl version isl-0.23-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/sys-include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/arm-none-eabi/8.3.1/include
+ /usr/lib/gcc/arm-none-eabi/8.3.1/include-fixed
+ /usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/include
+End of search list.
+GNU C17 (15:8-2019-q3-1+b1) version 8.3.1 20190703 (release) [gcc-8-branch revision 273027] (arm-none-eabi)
+	compiled by GNU C version 10.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.0, isl version isl-0.23-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 18311f357af908e02058b19d5bd71d4d
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_83fc7.dir/CMakeCCompilerABI.c.o' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
+ /usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/bin/as -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_83fc7.dir/CMakeCCompilerABI.c.o /tmp/ccOCA7UQ.s
+GNU assembler version 2.34 (arm-none-eabi) using BFD version (2.34-4+rpi1+14) 2.34
+COMPILER_PATH=/usr/lib/gcc/arm-none-eabi/8.3.1/:/usr/lib/gcc/arm-none-eabi/8.3.1/:/usr/lib/gcc/arm-none-eabi/:/usr/lib/gcc/arm-none-eabi/8.3.1/:/usr/lib/gcc/arm-none-eabi/:/usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/bin/
+LIBRARY_PATH=/usr/lib/gcc/arm-none-eabi/8.3.1/:/usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_83fc7.dir/CMakeCCompilerABI.c.o' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
+Linking C executable cmTC_83fc7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_83fc7.dir/link.txt --verbose=1
+/bin/arm-none-eabi-gcc-8.3.1  -v -rdynamic CMakeFiles/cmTC_83fc7.dir/CMakeCCompilerABI.c.o -o cmTC_83fc7 
+Using built-in specs.
+COLLECT_GCC=/bin/arm-none-eabi-gcc-8.3.1
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/arm-none-eabi/8.3.1/lto-wrapper
+arm-none-eabi-gcc-8.3.1: error: unrecognized command line option '-rdynamic'
+Target: arm-none-eabi
+Configured with: ../configure --build=arm-linux-gnueabihf --prefix=/usr --includedir='/usr/lib/include' --mandir='/usr/lib/share/man' --infodir='/usr/lib/share/info' --sysconfdir=/etc --localstatedir=/var --disable-option-checking --disable-silent-rules --libdir='/usr/lib/lib/arm-linux-gnueabihf' --libexecdir='/usr/lib/lib/arm-linux-gnueabihf' --disable-maintainer-mode --disable-dependency-tracking --mandir=/usr/share/man --enable-languages=c,c++,lto --enable-multilib --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --enable-tls --build=arm-linux-gnueabihf --target=arm-none-eabi --with-system-zlib --with-gnu-as --with-gnu-ld --with-pkgversion=15:8-2019-q3-1+b1 --without-included-gettext --prefix=/usr/lib --infodir=/usr/share/doc/gcc-arm-none-eabi/info --htmldir=/usr/share/doc/gcc-arm-none-eabi/html --pdfdir=/usr/share/doc/gcc-arm-none-eabi/pdf --bindir=/usr/bin --libexecdir=/usr/lib --libdir=/usr/lib --disable-libstdc++-v3 --host=arm-linux-gnueabihf --with-headers=no --without-newlib --with-multilib-list=rmprofile CFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-3BFy9A/gcc-arm-none-eabi-8-2019-q3=. -fstack-protector-strong' CPPFLAGS='-Wdate-time -D_FORTIFY_SOURCE=2' CXXFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-3BFy9A/gcc-arm-none-eabi-8-2019-q3=. -fstack-protector-strong' FCFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-3BFy9A/gcc-arm-none-eabi-8-2019-q3=. -fstack-protector-strong' FFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-3BFy9A/gcc-arm-none-eabi-8-2019-q3=. -fstack-protector-strong' GCJFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-3BFy9A/gcc-arm-none-eabi-8-2019-q3=. -fstack-protector-strong' LDFLAGS=-Wl,-z,relro OBJCFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-3BFy9A/gcc-arm-none-eabi-8-2019-q3=. -fstack-protector-strong' OBJCXXFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-3BFy9A/gcc-arm-none-eabi-8-2019-q3=. -fstack-protector-strong' INHIBIT_LIBC_CFLAGS=-DUSE_TM_CLONE_REGISTRY=0 AR_FOR_TARGET=arm-none-eabi-ar AS_FOR_TARGET=arm-none-eabi-as LD_FOR_TARGET=arm-none-eabi-ld NM_FOR_TARGET=arm-none-eabi-nm OBJDUMP_FOR_TARGET=arm-none-eabi-objdump RANLIB_FOR_TARGET=arm-none-eabi-ranlib READELF_FOR_TARGET=arm-none-eabi-readelf STRIP_FOR_TARGET=arm-none-eabi-strip
+Thread model: single
+gcc version 8.3.1 20190703 (release) [gcc-8-branch revision 273027] (15:8-2019-q3-1+b1) 
+gmake[1]: *** [CMakeFiles/cmTC_83fc7.dir/build.make:106: cmTC_83fc7] Error 1
+gmake[1]: Leaving directory '/home/pi/pico/RP2040-HAT-C/libraries/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_83fc7/fast] Error 2
+
+
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: /home/pi/pico/RP2040-HAT-C/libraries/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_6e4f5/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_6e4f5.dir/build.make CMakeFiles/cmTC_6e4f5.dir/build
+gmake[1]: Entering directory '/home/pi/pico/RP2040-HAT-C/libraries/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6e4f5.dir/testCCompiler.c.o
+/bin/arm-none-eabi-gcc-8.3.1    -o CMakeFiles/cmTC_6e4f5.dir/testCCompiler.c.o -c /home/pi/pico/RP2040-HAT-C/libraries/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_6e4f5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6e4f5.dir/link.txt --verbose=1
+/bin/arm-none-eabi-gcc-8.3.1 -rdynamic CMakeFiles/cmTC_6e4f5.dir/testCCompiler.c.o -o cmTC_6e4f5 
+arm-none-eabi-gcc-8.3.1: error: unrecognized command line option '-rdynamic'
+gmake[1]: *** [CMakeFiles/cmTC_6e4f5.dir/build.make:106: cmTC_6e4f5] Error 1
+gmake[1]: Leaving directory '/home/pi/pico/RP2040-HAT-C/libraries/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_6e4f5/fast] Error 2
+
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /bin/arm-none-eabi-gcc-8.3.1 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+/usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/bin/ld: /usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/lib/libc.a(lib_a-exit.o): in function `exit':
+/build/newlib-kGgvwE/newlib-3.3.0/build/arm-none-eabi/newlib/libc/stdlib/../../../../../newlib/libc/stdlib/exit.c:64: undefined reference to `_exit'
+collect2: error: ld returned 1 exit status
+
+
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: /home/pi/pico/RP2040-HAT-C/libraries/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_95156/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_95156.dir/build.make CMakeFiles/cmTC_95156.dir/build
+gmake[1]: Entering directory '/home/pi/pico/RP2040-HAT-C/libraries/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_95156.dir/CMakeCCompilerABI.c.o
+/bin/arm-none-eabi-gcc-8.3.1   -v -o CMakeFiles/cmTC_95156.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.18/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/bin/arm-none-eabi-gcc-8.3.1
+Target: arm-none-eabi
+Configured with: ../configure --build=arm-linux-gnueabihf --prefix=/usr --includedir='/usr/lib/include' --mandir='/usr/lib/share/man' --infodir='/usr/lib/share/info' --sysconfdir=/etc --localstatedir=/var --disable-option-checking --disable-silent-rules --libdir='/usr/lib/lib/arm-linux-gnueabihf' --libexecdir='/usr/lib/lib/arm-linux-gnueabihf' --disable-maintainer-mode --disable-dependency-tracking --mandir=/usr/share/man --enable-languages=c,c++,lto --enable-multilib --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --enable-tls --build=arm-linux-gnueabihf --target=arm-none-eabi --with-system-zlib --with-gnu-as --with-gnu-ld --with-pkgversion=15:8-2019-q3-1+b1 --without-included-gettext --prefix=/usr/lib --infodir=/usr/share/doc/gcc-arm-none-eabi/info --htmldir=/usr/share/doc/gcc-arm-none-eabi/html --pdfdir=/usr/share/doc/gcc-arm-none-eabi/pdf --bindir=/usr/bin --libexecdir=/usr/lib --libdir=/usr/lib --disable-libstdc++-v3 --host=arm-linux-gnueabihf --with-headers=no --without-newlib --with-multilib-list=rmprofile CFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-3BFy9A/gcc-arm-none-eabi-8-2019-q3=. -fstack-protector-strong' CPPFLAGS='-Wdate-time -D_FORTIFY_SOURCE=2' CXXFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-3BFy9A/gcc-arm-none-eabi-8-2019-q3=. -fstack-protector-strong' FCFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-3BFy9A/gcc-arm-none-eabi-8-2019-q3=. -fstack-protector-strong' FFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-3BFy9A/gcc-arm-none-eabi-8-2019-q3=. -fstack-protector-strong' GCJFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-3BFy9A/gcc-arm-none-eabi-8-2019-q3=. -fstack-protector-strong' LDFLAGS=-Wl,-z,relro OBJCFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-3BFy9A/gcc-arm-none-eabi-8-2019-q3=. -fstack-protector-strong' OBJCXXFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-3BFy9A/gcc-arm-none-eabi-8-2019-q3=. -fstack-protector-strong' INHIBIT_LIBC_CFLAGS=-DUSE_TM_CLONE_REGISTRY=0 AR_FOR_TARGET=arm-none-eabi-ar AS_FOR_TARGET=arm-none-eabi-as LD_FOR_TARGET=arm-none-eabi-ld NM_FOR_TARGET=arm-none-eabi-nm OBJDUMP_FOR_TARGET=arm-none-eabi-objdump RANLIB_FOR_TARGET=arm-none-eabi-ranlib READELF_FOR_TARGET=arm-none-eabi-readelf STRIP_FOR_TARGET=arm-none-eabi-strip
+Thread model: single
+gcc version 8.3.1 20190703 (release) [gcc-8-branch revision 273027] (15:8-2019-q3-1+b1) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_95156.dir/CMakeCCompilerABI.c.o' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
+ /usr/lib/gcc/arm-none-eabi/8.3.1/cc1 -quiet -v -D__USES_INITFINI__ /usr/share/cmake-3.18/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mcpu=arm7tdmi -mfloat-abi=soft -marm -march=armv4t -auxbase-strip CMakeFiles/cmTC_95156.dir/CMakeCCompilerABI.c.o -version -o /tmp/ccHvAilN.s
+GNU C17 (15:8-2019-q3-1+b1) version 8.3.1 20190703 (release) [gcc-8-branch revision 273027] (arm-none-eabi)
+	compiled by GNU C version 10.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.0, isl version isl-0.23-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/sys-include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/arm-none-eabi/8.3.1/include
+ /usr/lib/gcc/arm-none-eabi/8.3.1/include-fixed
+ /usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/include
+End of search list.
+GNU C17 (15:8-2019-q3-1+b1) version 8.3.1 20190703 (release) [gcc-8-branch revision 273027] (arm-none-eabi)
+	compiled by GNU C version 10.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.0, isl version isl-0.23-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 18311f357af908e02058b19d5bd71d4d
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_95156.dir/CMakeCCompilerABI.c.o' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
+ /usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/bin/as -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_95156.dir/CMakeCCompilerABI.c.o /tmp/ccHvAilN.s
+GNU assembler version 2.34 (arm-none-eabi) using BFD version (2.34-4+rpi1+14) 2.34
+COMPILER_PATH=/usr/lib/gcc/arm-none-eabi/8.3.1/:/usr/lib/gcc/arm-none-eabi/8.3.1/:/usr/lib/gcc/arm-none-eabi/:/usr/lib/gcc/arm-none-eabi/8.3.1/:/usr/lib/gcc/arm-none-eabi/:/usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/bin/
+LIBRARY_PATH=/usr/lib/gcc/arm-none-eabi/8.3.1/:/usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_95156.dir/CMakeCCompilerABI.c.o' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
+Linking C executable cmTC_95156
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_95156.dir/link.txt --verbose=1
+/bin/arm-none-eabi-gcc-8.3.1  -v -rdynamic CMakeFiles/cmTC_95156.dir/CMakeCCompilerABI.c.o -o cmTC_95156 
+Using built-in specs.
+COLLECT_GCC=/bin/arm-none-eabi-gcc-8.3.1
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/arm-none-eabi/8.3.1/lto-wrapper
+arm-none-eabi-gcc-8.3.1: error: unrecognized command line option '-rdynamic'
+Target: arm-none-eabi
+Configured with: ../configure --build=arm-linux-gnueabihf --prefix=/usr --includedir='/usr/lib/include' --mandir='/usr/lib/share/man' --infodir='/usr/lib/share/info' --sysconfdir=/etc --localstatedir=/var --disable-option-checking --disable-silent-rules --libdir='/usr/lib/lib/arm-linux-gnueabihf' --libexecdir='/usr/lib/lib/arm-linux-gnueabihf' --disable-maintainer-mode --disable-dependency-tracking --mandir=/usr/share/man --enable-languages=c,c++,lto --enable-multilib --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --enable-tls --build=arm-linux-gnueabihf --target=arm-none-eabi --with-system-zlib --with-gnu-as --with-gnu-ld --with-pkgversion=15:8-2019-q3-1+b1 --without-included-gettext --prefix=/usr/lib --infodir=/usr/share/doc/gcc-arm-none-eabi/info --htmldir=/usr/share/doc/gcc-arm-none-eabi/html --pdfdir=/usr/share/doc/gcc-arm-none-eabi/pdf --bindir=/usr/bin --libexecdir=/usr/lib --libdir=/usr/lib --disable-libstdc++-v3 --host=arm-linux-gnueabihf --with-headers=no --without-newlib --with-multilib-list=rmprofile CFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-3BFy9A/gcc-arm-none-eabi-8-2019-q3=. -fstack-protector-strong' CPPFLAGS='-Wdate-time -D_FORTIFY_SOURCE=2' CXXFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-3BFy9A/gcc-arm-none-eabi-8-2019-q3=. -fstack-protector-strong' FCFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-3BFy9A/gcc-arm-none-eabi-8-2019-q3=. -fstack-protector-strong' FFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-3BFy9A/gcc-arm-none-eabi-8-2019-q3=. -fstack-protector-strong' GCJFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-3BFy9A/gcc-arm-none-eabi-8-2019-q3=. -fstack-protector-strong' LDFLAGS=-Wl,-z,relro OBJCFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-3BFy9A/gcc-arm-none-eabi-8-2019-q3=. -fstack-protector-strong' OBJCXXFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-3BFy9A/gcc-arm-none-eabi-8-2019-q3=. -fstack-protector-strong' INHIBIT_LIBC_CFLAGS=-DUSE_TM_CLONE_REGISTRY=0 AR_FOR_TARGET=arm-none-eabi-ar AS_FOR_TARGET=arm-none-eabi-as LD_FOR_TARGET=arm-none-eabi-ld NM_FOR_TARGET=arm-none-eabi-nm OBJDUMP_FOR_TARGET=arm-none-eabi-objdump RANLIB_FOR_TARGET=arm-none-eabi-ranlib READELF_FOR_TARGET=arm-none-eabi-readelf STRIP_FOR_TARGET=arm-none-eabi-strip
+Thread model: single
+gcc version 8.3.1 20190703 (release) [gcc-8-branch revision 273027] (15:8-2019-q3-1+b1) 
+gmake[1]: *** [CMakeFiles/cmTC_95156.dir/build.make:106: cmTC_95156] Error 1
+gmake[1]: Leaving directory '/home/pi/pico/RP2040-HAT-C/libraries/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_95156/fast] Error 2
+
+
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: /home/pi/pico/RP2040-HAT-C/libraries/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_0ccf9/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_0ccf9.dir/build.make CMakeFiles/cmTC_0ccf9.dir/build
+gmake[1]: Entering directory '/home/pi/pico/RP2040-HAT-C/libraries/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0ccf9.dir/testCCompiler.c.o
+/bin/arm-none-eabi-gcc-8.3.1    -o CMakeFiles/cmTC_0ccf9.dir/testCCompiler.c.o -c /home/pi/pico/RP2040-HAT-C/libraries/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_0ccf9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0ccf9.dir/link.txt --verbose=1
+/bin/arm-none-eabi-gcc-8.3.1 -rdynamic CMakeFiles/cmTC_0ccf9.dir/testCCompiler.c.o -o cmTC_0ccf9 
+arm-none-eabi-gcc-8.3.1: error: unrecognized command line option '-rdynamic'
+gmake[1]: *** [CMakeFiles/cmTC_0ccf9.dir/build.make:106: cmTC_0ccf9] Error 1
+gmake[1]: Leaving directory '/home/pi/pico/RP2040-HAT-C/libraries/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_0ccf9/fast] Error 2
+
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /bin/arm-none-eabi-gcc-8.3.1 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+/usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/bin/ld: /usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/lib/libc.a(lib_a-exit.o): in function `exit':
+/build/newlib-kGgvwE/newlib-3.3.0/build/arm-none-eabi/newlib/libc/stdlib/../../../../../newlib/libc/stdlib/exit.c:64: undefined reference to `_exit'
+collect2: error: ld returned 1 exit status
+
+
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: /home/pi/pico/RP2040-HAT-C/libraries/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_292fe/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_292fe.dir/build.make CMakeFiles/cmTC_292fe.dir/build
+gmake[1]: Entering directory '/home/pi/pico/RP2040-HAT-C/libraries/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_292fe.dir/CMakeCCompilerABI.c.o
+/bin/arm-none-eabi-gcc-8.3.1   -v -o CMakeFiles/cmTC_292fe.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.18/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/bin/arm-none-eabi-gcc-8.3.1
+Target: arm-none-eabi
+Configured with: ../configure --build=arm-linux-gnueabihf --prefix=/usr --includedir='/usr/lib/include' --mandir='/usr/lib/share/man' --infodir='/usr/lib/share/info' --sysconfdir=/etc --localstatedir=/var --disable-option-checking --disable-silent-rules --libdir='/usr/lib/lib/arm-linux-gnueabihf' --libexecdir='/usr/lib/lib/arm-linux-gnueabihf' --disable-maintainer-mode --disable-dependency-tracking --mandir=/usr/share/man --enable-languages=c,c++,lto --enable-multilib --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --enable-tls --build=arm-linux-gnueabihf --target=arm-none-eabi --with-system-zlib --with-gnu-as --with-gnu-ld --with-pkgversion=15:8-2019-q3-1+b1 --without-included-gettext --prefix=/usr/lib --infodir=/usr/share/doc/gcc-arm-none-eabi/info --htmldir=/usr/share/doc/gcc-arm-none-eabi/html --pdfdir=/usr/share/doc/gcc-arm-none-eabi/pdf --bindir=/usr/bin --libexecdir=/usr/lib --libdir=/usr/lib --disable-libstdc++-v3 --host=arm-linux-gnueabihf --with-headers=no --without-newlib --with-multilib-list=rmprofile CFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-3BFy9A/gcc-arm-none-eabi-8-2019-q3=. -fstack-protector-strong' CPPFLAGS='-Wdate-time -D_FORTIFY_SOURCE=2' CXXFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-3BFy9A/gcc-arm-none-eabi-8-2019-q3=. -fstack-protector-strong' FCFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-3BFy9A/gcc-arm-none-eabi-8-2019-q3=. -fstack-protector-strong' FFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-3BFy9A/gcc-arm-none-eabi-8-2019-q3=. -fstack-protector-strong' GCJFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-3BFy9A/gcc-arm-none-eabi-8-2019-q3=. -fstack-protector-strong' LDFLAGS=-Wl,-z,relro OBJCFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-3BFy9A/gcc-arm-none-eabi-8-2019-q3=. -fstack-protector-strong' OBJCXXFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-3BFy9A/gcc-arm-none-eabi-8-2019-q3=. -fstack-protector-strong' INHIBIT_LIBC_CFLAGS=-DUSE_TM_CLONE_REGISTRY=0 AR_FOR_TARGET=arm-none-eabi-ar AS_FOR_TARGET=arm-none-eabi-as LD_FOR_TARGET=arm-none-eabi-ld NM_FOR_TARGET=arm-none-eabi-nm OBJDUMP_FOR_TARGET=arm-none-eabi-objdump RANLIB_FOR_TARGET=arm-none-eabi-ranlib READELF_FOR_TARGET=arm-none-eabi-readelf STRIP_FOR_TARGET=arm-none-eabi-strip
+Thread model: single
+gcc version 8.3.1 20190703 (release) [gcc-8-branch revision 273027] (15:8-2019-q3-1+b1) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_292fe.dir/CMakeCCompilerABI.c.o' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
+ /usr/lib/gcc/arm-none-eabi/8.3.1/cc1 -quiet -v -D__USES_INITFINI__ /usr/share/cmake-3.18/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mcpu=arm7tdmi -mfloat-abi=soft -marm -march=armv4t -auxbase-strip CMakeFiles/cmTC_292fe.dir/CMakeCCompilerABI.c.o -version -o /tmp/cc96WyIq.s
+GNU C17 (15:8-2019-q3-1+b1) version 8.3.1 20190703 (release) [gcc-8-branch revision 273027] (arm-none-eabi)
+	compiled by GNU C version 10.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.0, isl version isl-0.23-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/sys-include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/arm-none-eabi/8.3.1/include
+ /usr/lib/gcc/arm-none-eabi/8.3.1/include-fixed
+ /usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/include
+End of search list.
+GNU C17 (15:8-2019-q3-1+b1) version 8.3.1 20190703 (release) [gcc-8-branch revision 273027] (arm-none-eabi)
+	compiled by GNU C version 10.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.0, isl version isl-0.23-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 18311f357af908e02058b19d5bd71d4d
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_292fe.dir/CMakeCCompilerABI.c.o' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
+ /usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/bin/as -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_292fe.dir/CMakeCCompilerABI.c.o /tmp/cc96WyIq.s
+GNU assembler version 2.34 (arm-none-eabi) using BFD version (2.34-4+rpi1+14) 2.34
+COMPILER_PATH=/usr/lib/gcc/arm-none-eabi/8.3.1/:/usr/lib/gcc/arm-none-eabi/8.3.1/:/usr/lib/gcc/arm-none-eabi/:/usr/lib/gcc/arm-none-eabi/8.3.1/:/usr/lib/gcc/arm-none-eabi/:/usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/bin/
+LIBRARY_PATH=/usr/lib/gcc/arm-none-eabi/8.3.1/:/usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_292fe.dir/CMakeCCompilerABI.c.o' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
+Linking C executable cmTC_292fe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_292fe.dir/link.txt --verbose=1
+/bin/arm-none-eabi-gcc-8.3.1  -v -rdynamic CMakeFiles/cmTC_292fe.dir/CMakeCCompilerABI.c.o -o cmTC_292fe 
+Using built-in specs.
+COLLECT_GCC=/bin/arm-none-eabi-gcc-8.3.1
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/arm-none-eabi/8.3.1/lto-wrapper
+arm-none-eabi-gcc-8.3.1: error: unrecognized command line option '-rdynamic'
+Target: arm-none-eabi
+Configured with: ../configure --build=arm-linux-gnueabihf --prefix=/usr --includedir='/usr/lib/include' --mandir='/usr/lib/share/man' --infodir='/usr/lib/share/info' --sysconfdir=/etc --localstatedir=/var --disable-option-checking --disable-silent-rules --libdir='/usr/lib/lib/arm-linux-gnueabihf' --libexecdir='/usr/lib/lib/arm-linux-gnueabihf' --disable-maintainer-mode --disable-dependency-tracking --mandir=/usr/share/man --enable-languages=c,c++,lto --enable-multilib --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --enable-tls --build=arm-linux-gnueabihf --target=arm-none-eabi --with-system-zlib --with-gnu-as --with-gnu-ld --with-pkgversion=15:8-2019-q3-1+b1 --without-included-gettext --prefix=/usr/lib --infodir=/usr/share/doc/gcc-arm-none-eabi/info --htmldir=/usr/share/doc/gcc-arm-none-eabi/html --pdfdir=/usr/share/doc/gcc-arm-none-eabi/pdf --bindir=/usr/bin --libexecdir=/usr/lib --libdir=/usr/lib --disable-libstdc++-v3 --host=arm-linux-gnueabihf --with-headers=no --without-newlib --with-multilib-list=rmprofile CFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-3BFy9A/gcc-arm-none-eabi-8-2019-q3=. -fstack-protector-strong' CPPFLAGS='-Wdate-time -D_FORTIFY_SOURCE=2' CXXFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-3BFy9A/gcc-arm-none-eabi-8-2019-q3=. -fstack-protector-strong' FCFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-3BFy9A/gcc-arm-none-eabi-8-2019-q3=. -fstack-protector-strong' FFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-3BFy9A/gcc-arm-none-eabi-8-2019-q3=. -fstack-protector-strong' GCJFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-3BFy9A/gcc-arm-none-eabi-8-2019-q3=. -fstack-protector-strong' LDFLAGS=-Wl,-z,relro OBJCFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-3BFy9A/gcc-arm-none-eabi-8-2019-q3=. -fstack-protector-strong' OBJCXXFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-3BFy9A/gcc-arm-none-eabi-8-2019-q3=. -fstack-protector-strong' INHIBIT_LIBC_CFLAGS=-DUSE_TM_CLONE_REGISTRY=0 AR_FOR_TARGET=arm-none-eabi-ar AS_FOR_TARGET=arm-none-eabi-as LD_FOR_TARGET=arm-none-eabi-ld NM_FOR_TARGET=arm-none-eabi-nm OBJDUMP_FOR_TARGET=arm-none-eabi-objdump RANLIB_FOR_TARGET=arm-none-eabi-ranlib READELF_FOR_TARGET=arm-none-eabi-readelf STRIP_FOR_TARGET=arm-none-eabi-strip
+Thread model: single
+gcc version 8.3.1 20190703 (release) [gcc-8-branch revision 273027] (15:8-2019-q3-1+b1) 
+gmake[1]: *** [CMakeFiles/cmTC_292fe.dir/build.make:106: cmTC_292fe] Error 1
+gmake[1]: Leaving directory '/home/pi/pico/RP2040-HAT-C/libraries/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_292fe/fast] Error 2
+
+
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: /home/pi/pico/RP2040-HAT-C/libraries/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_a3493/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_a3493.dir/build.make CMakeFiles/cmTC_a3493.dir/build
+gmake[1]: Entering directory '/home/pi/pico/RP2040-HAT-C/libraries/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a3493.dir/testCCompiler.c.o
+/bin/arm-none-eabi-gcc-8.3.1    -o CMakeFiles/cmTC_a3493.dir/testCCompiler.c.o -c /home/pi/pico/RP2040-HAT-C/libraries/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_a3493
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a3493.dir/link.txt --verbose=1
+/bin/arm-none-eabi-gcc-8.3.1 -rdynamic CMakeFiles/cmTC_a3493.dir/testCCompiler.c.o -o cmTC_a3493 
+arm-none-eabi-gcc-8.3.1: error: unrecognized command line option '-rdynamic'
+gmake[1]: *** [CMakeFiles/cmTC_a3493.dir/build.make:106: cmTC_a3493] Error 1
+gmake[1]: Leaving directory '/home/pi/pico/RP2040-HAT-C/libraries/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_a3493/fast] Error 2
+
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /bin/arm-none-eabi-gcc-8.3.1 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+/usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/bin/ld: /usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/lib/libc.a(lib_a-exit.o): in function `exit':
+/build/newlib-kGgvwE/newlib-3.3.0/build/arm-none-eabi/newlib/libc/stdlib/../../../../../newlib/libc/stdlib/exit.c:64: undefined reference to `_exit'
+collect2: error: ld returned 1 exit status
+
+
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: /home/pi/pico/RP2040-HAT-C/libraries/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_a5168/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_a5168.dir/build.make CMakeFiles/cmTC_a5168.dir/build
+gmake[1]: Entering directory '/home/pi/pico/RP2040-HAT-C/libraries/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a5168.dir/CMakeCCompilerABI.c.o
+/bin/arm-none-eabi-gcc-8.3.1   -v -o CMakeFiles/cmTC_a5168.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.18/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/bin/arm-none-eabi-gcc-8.3.1
+Target: arm-none-eabi
+Configured with: ../configure --build=arm-linux-gnueabihf --prefix=/usr --includedir='/usr/lib/include' --mandir='/usr/lib/share/man' --infodir='/usr/lib/share/info' --sysconfdir=/etc --localstatedir=/var --disable-option-checking --disable-silent-rules --libdir='/usr/lib/lib/arm-linux-gnueabihf' --libexecdir='/usr/lib/lib/arm-linux-gnueabihf' --disable-maintainer-mode --disable-dependency-tracking --mandir=/usr/share/man --enable-languages=c,c++,lto --enable-multilib --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --enable-tls --build=arm-linux-gnueabihf --target=arm-none-eabi --with-system-zlib --with-gnu-as --with-gnu-ld --with-pkgversion=15:8-2019-q3-1+b1 --without-included-gettext --prefix=/usr/lib --infodir=/usr/share/doc/gcc-arm-none-eabi/info --htmldir=/usr/share/doc/gcc-arm-none-eabi/html --pdfdir=/usr/share/doc/gcc-arm-none-eabi/pdf --bindir=/usr/bin --libexecdir=/usr/lib --libdir=/usr/lib --disable-libstdc++-v3 --host=arm-linux-gnueabihf --with-headers=no --without-newlib --with-multilib-list=rmprofile CFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-3BFy9A/gcc-arm-none-eabi-8-2019-q3=. -fstack-protector-strong' CPPFLAGS='-Wdate-time -D_FORTIFY_SOURCE=2' CXXFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-3BFy9A/gcc-arm-none-eabi-8-2019-q3=. -fstack-protector-strong' FCFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-3BFy9A/gcc-arm-none-eabi-8-2019-q3=. -fstack-protector-strong' FFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-3BFy9A/gcc-arm-none-eabi-8-2019-q3=. -fstack-protector-strong' GCJFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-3BFy9A/gcc-arm-none-eabi-8-2019-q3=. -fstack-protector-strong' LDFLAGS=-Wl,-z,relro OBJCFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-3BFy9A/gcc-arm-none-eabi-8-2019-q3=. -fstack-protector-strong' OBJCXXFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-3BFy9A/gcc-arm-none-eabi-8-2019-q3=. -fstack-protector-strong' INHIBIT_LIBC_CFLAGS=-DUSE_TM_CLONE_REGISTRY=0 AR_FOR_TARGET=arm-none-eabi-ar AS_FOR_TARGET=arm-none-eabi-as LD_FOR_TARGET=arm-none-eabi-ld NM_FOR_TARGET=arm-none-eabi-nm OBJDUMP_FOR_TARGET=arm-none-eabi-objdump RANLIB_FOR_TARGET=arm-none-eabi-ranlib READELF_FOR_TARGET=arm-none-eabi-readelf STRIP_FOR_TARGET=arm-none-eabi-strip
+Thread model: single
+gcc version 8.3.1 20190703 (release) [gcc-8-branch revision 273027] (15:8-2019-q3-1+b1) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_a5168.dir/CMakeCCompilerABI.c.o' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
+ /usr/lib/gcc/arm-none-eabi/8.3.1/cc1 -quiet -v -D__USES_INITFINI__ /usr/share/cmake-3.18/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mcpu=arm7tdmi -mfloat-abi=soft -marm -march=armv4t -auxbase-strip CMakeFiles/cmTC_a5168.dir/CMakeCCompilerABI.c.o -version -o /tmp/ccfFcqxW.s
+GNU C17 (15:8-2019-q3-1+b1) version 8.3.1 20190703 (release) [gcc-8-branch revision 273027] (arm-none-eabi)
+	compiled by GNU C version 10.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.0, isl version isl-0.23-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/sys-include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/arm-none-eabi/8.3.1/include
+ /usr/lib/gcc/arm-none-eabi/8.3.1/include-fixed
+ /usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/include
+End of search list.
+GNU C17 (15:8-2019-q3-1+b1) version 8.3.1 20190703 (release) [gcc-8-branch revision 273027] (arm-none-eabi)
+	compiled by GNU C version 10.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.0, isl version isl-0.23-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 18311f357af908e02058b19d5bd71d4d
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_a5168.dir/CMakeCCompilerABI.c.o' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
+ /usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/bin/as -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_a5168.dir/CMakeCCompilerABI.c.o /tmp/ccfFcqxW.s
+GNU assembler version 2.34 (arm-none-eabi) using BFD version (2.34-4+rpi1+14) 2.34
+COMPILER_PATH=/usr/lib/gcc/arm-none-eabi/8.3.1/:/usr/lib/gcc/arm-none-eabi/8.3.1/:/usr/lib/gcc/arm-none-eabi/:/usr/lib/gcc/arm-none-eabi/8.3.1/:/usr/lib/gcc/arm-none-eabi/:/usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/bin/
+LIBRARY_PATH=/usr/lib/gcc/arm-none-eabi/8.3.1/:/usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_a5168.dir/CMakeCCompilerABI.c.o' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
+Linking C executable cmTC_a5168
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a5168.dir/link.txt --verbose=1
+/bin/arm-none-eabi-gcc-8.3.1  -v -rdynamic CMakeFiles/cmTC_a5168.dir/CMakeCCompilerABI.c.o -o cmTC_a5168 
+Using built-in specs.
+COLLECT_GCC=/bin/arm-none-eabi-gcc-8.3.1
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/arm-none-eabi/8.3.1/lto-wrapper
+arm-none-eabi-gcc-8.3.1: error: unrecognized command line option '-rdynamic'
+Target: arm-none-eabi
+Configured with: ../configure --build=arm-linux-gnueabihf --prefix=/usr --includedir='/usr/lib/include' --mandir='/usr/lib/share/man' --infodir='/usr/lib/share/info' --sysconfdir=/etc --localstatedir=/var --disable-option-checking --disable-silent-rules --libdir='/usr/lib/lib/arm-linux-gnueabihf' --libexecdir='/usr/lib/lib/arm-linux-gnueabihf' --disable-maintainer-mode --disable-dependency-tracking --mandir=/usr/share/man --enable-languages=c,c++,lto --enable-multilib --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --enable-tls --build=arm-linux-gnueabihf --target=arm-none-eabi --with-system-zlib --with-gnu-as --with-gnu-ld --with-pkgversion=15:8-2019-q3-1+b1 --without-included-gettext --prefix=/usr/lib --infodir=/usr/share/doc/gcc-arm-none-eabi/info --htmldir=/usr/share/doc/gcc-arm-none-eabi/html --pdfdir=/usr/share/doc/gcc-arm-none-eabi/pdf --bindir=/usr/bin --libexecdir=/usr/lib --libdir=/usr/lib --disable-libstdc++-v3 --host=arm-linux-gnueabihf --with-headers=no --without-newlib --with-multilib-list=rmprofile CFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-3BFy9A/gcc-arm-none-eabi-8-2019-q3=. -fstack-protector-strong' CPPFLAGS='-Wdate-time -D_FORTIFY_SOURCE=2' CXXFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-3BFy9A/gcc-arm-none-eabi-8-2019-q3=. -fstack-protector-strong' FCFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-3BFy9A/gcc-arm-none-eabi-8-2019-q3=. -fstack-protector-strong' FFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-3BFy9A/gcc-arm-none-eabi-8-2019-q3=. -fstack-protector-strong' GCJFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-3BFy9A/gcc-arm-none-eabi-8-2019-q3=. -fstack-protector-strong' LDFLAGS=-Wl,-z,relro OBJCFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-3BFy9A/gcc-arm-none-eabi-8-2019-q3=. -fstack-protector-strong' OBJCXXFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-3BFy9A/gcc-arm-none-eabi-8-2019-q3=. -fstack-protector-strong' INHIBIT_LIBC_CFLAGS=-DUSE_TM_CLONE_REGISTRY=0 AR_FOR_TARGET=arm-none-eabi-ar AS_FOR_TARGET=arm-none-eabi-as LD_FOR_TARGET=arm-none-eabi-ld NM_FOR_TARGET=arm-none-eabi-nm OBJDUMP_FOR_TARGET=arm-none-eabi-objdump RANLIB_FOR_TARGET=arm-none-eabi-ranlib READELF_FOR_TARGET=arm-none-eabi-readelf STRIP_FOR_TARGET=arm-none-eabi-strip
+Thread model: single
+gcc version 8.3.1 20190703 (release) [gcc-8-branch revision 273027] (15:8-2019-q3-1+b1) 
+gmake[1]: *** [CMakeFiles/cmTC_a5168.dir/build.make:106: cmTC_a5168] Error 1
+gmake[1]: Leaving directory '/home/pi/pico/RP2040-HAT-C/libraries/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_a5168/fast] Error 2
+
+
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: /home/pi/pico/RP2040-HAT-C/libraries/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_9f3ae/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_9f3ae.dir/build.make CMakeFiles/cmTC_9f3ae.dir/build
+gmake[1]: Entering directory '/home/pi/pico/RP2040-HAT-C/libraries/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9f3ae.dir/testCCompiler.c.o
+/bin/arm-none-eabi-gcc-8.3.1    -o CMakeFiles/cmTC_9f3ae.dir/testCCompiler.c.o -c /home/pi/pico/RP2040-HAT-C/libraries/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_9f3ae
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9f3ae.dir/link.txt --verbose=1
+/bin/arm-none-eabi-gcc-8.3.1 -rdynamic CMakeFiles/cmTC_9f3ae.dir/testCCompiler.c.o -o cmTC_9f3ae 
+arm-none-eabi-gcc-8.3.1: error: unrecognized command line option '-rdynamic'
+gmake[1]: *** [CMakeFiles/cmTC_9f3ae.dir/build.make:106: cmTC_9f3ae] Error 1
+gmake[1]: Leaving directory '/home/pi/pico/RP2040-HAT-C/libraries/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_9f3ae/fast] Error 2
+
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /bin/arm-none-eabi-gcc-8.3.1 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+/usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/bin/ld: /usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/lib/libc.a(lib_a-exit.o): in function `exit':
+/build/newlib-kGgvwE/newlib-3.3.0/build/arm-none-eabi/newlib/libc/stdlib/../../../../../newlib/libc/stdlib/exit.c:64: undefined reference to `_exit'
+collect2: error: ld returned 1 exit status
+
+
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: /home/pi/pico/RP2040-HAT-C/libraries/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_62efb/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_62efb.dir/build.make CMakeFiles/cmTC_62efb.dir/build
+gmake[1]: Entering directory '/home/pi/pico/RP2040-HAT-C/libraries/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_62efb.dir/CMakeCCompilerABI.c.o
+/bin/arm-none-eabi-gcc-8.3.1   -v -o CMakeFiles/cmTC_62efb.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.18/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/bin/arm-none-eabi-gcc-8.3.1
+Target: arm-none-eabi
+Configured with: ../configure --build=arm-linux-gnueabihf --prefix=/usr --includedir='/usr/lib/include' --mandir='/usr/lib/share/man' --infodir='/usr/lib/share/info' --sysconfdir=/etc --localstatedir=/var --disable-option-checking --disable-silent-rules --libdir='/usr/lib/lib/arm-linux-gnueabihf' --libexecdir='/usr/lib/lib/arm-linux-gnueabihf' --disable-maintainer-mode --disable-dependency-tracking --mandir=/usr/share/man --enable-languages=c,c++,lto --enable-multilib --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --enable-tls --build=arm-linux-gnueabihf --target=arm-none-eabi --with-system-zlib --with-gnu-as --with-gnu-ld --with-pkgversion=15:8-2019-q3-1+b1 --without-included-gettext --prefix=/usr/lib --infodir=/usr/share/doc/gcc-arm-none-eabi/info --htmldir=/usr/share/doc/gcc-arm-none-eabi/html --pdfdir=/usr/share/doc/gcc-arm-none-eabi/pdf --bindir=/usr/bin --libexecdir=/usr/lib --libdir=/usr/lib --disable-libstdc++-v3 --host=arm-linux-gnueabihf --with-headers=no --without-newlib --with-multilib-list=rmprofile CFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-3BFy9A/gcc-arm-none-eabi-8-2019-q3=. -fstack-protector-strong' CPPFLAGS='-Wdate-time -D_FORTIFY_SOURCE=2' CXXFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-3BFy9A/gcc-arm-none-eabi-8-2019-q3=. -fstack-protector-strong' FCFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-3BFy9A/gcc-arm-none-eabi-8-2019-q3=. -fstack-protector-strong' FFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-3BFy9A/gcc-arm-none-eabi-8-2019-q3=. -fstack-protector-strong' GCJFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-3BFy9A/gcc-arm-none-eabi-8-2019-q3=. -fstack-protector-strong' LDFLAGS=-Wl,-z,relro OBJCFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-3BFy9A/gcc-arm-none-eabi-8-2019-q3=. -fstack-protector-strong' OBJCXXFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-3BFy9A/gcc-arm-none-eabi-8-2019-q3=. -fstack-protector-strong' INHIBIT_LIBC_CFLAGS=-DUSE_TM_CLONE_REGISTRY=0 AR_FOR_TARGET=arm-none-eabi-ar AS_FOR_TARGET=arm-none-eabi-as LD_FOR_TARGET=arm-none-eabi-ld NM_FOR_TARGET=arm-none-eabi-nm OBJDUMP_FOR_TARGET=arm-none-eabi-objdump RANLIB_FOR_TARGET=arm-none-eabi-ranlib READELF_FOR_TARGET=arm-none-eabi-readelf STRIP_FOR_TARGET=arm-none-eabi-strip
+Thread model: single
+gcc version 8.3.1 20190703 (release) [gcc-8-branch revision 273027] (15:8-2019-q3-1+b1) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_62efb.dir/CMakeCCompilerABI.c.o' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
+ /usr/lib/gcc/arm-none-eabi/8.3.1/cc1 -quiet -v -D__USES_INITFINI__ /usr/share/cmake-3.18/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mcpu=arm7tdmi -mfloat-abi=soft -marm -march=armv4t -auxbase-strip CMakeFiles/cmTC_62efb.dir/CMakeCCompilerABI.c.o -version -o /tmp/ccNEDqsH.s
+GNU C17 (15:8-2019-q3-1+b1) version 8.3.1 20190703 (release) [gcc-8-branch revision 273027] (arm-none-eabi)
+	compiled by GNU C version 10.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.0, isl version isl-0.23-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/sys-include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/arm-none-eabi/8.3.1/include
+ /usr/lib/gcc/arm-none-eabi/8.3.1/include-fixed
+ /usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/include
+End of search list.
+GNU C17 (15:8-2019-q3-1+b1) version 8.3.1 20190703 (release) [gcc-8-branch revision 273027] (arm-none-eabi)
+	compiled by GNU C version 10.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.0, isl version isl-0.23-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 18311f357af908e02058b19d5bd71d4d
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_62efb.dir/CMakeCCompilerABI.c.o' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
+ /usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/bin/as -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_62efb.dir/CMakeCCompilerABI.c.o /tmp/ccNEDqsH.s
+GNU assembler version 2.34 (arm-none-eabi) using BFD version (2.34-4+rpi1+14) 2.34
+COMPILER_PATH=/usr/lib/gcc/arm-none-eabi/8.3.1/:/usr/lib/gcc/arm-none-eabi/8.3.1/:/usr/lib/gcc/arm-none-eabi/:/usr/lib/gcc/arm-none-eabi/8.3.1/:/usr/lib/gcc/arm-none-eabi/:/usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/bin/
+LIBRARY_PATH=/usr/lib/gcc/arm-none-eabi/8.3.1/:/usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_62efb.dir/CMakeCCompilerABI.c.o' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
+Linking C executable cmTC_62efb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_62efb.dir/link.txt --verbose=1
+/bin/arm-none-eabi-gcc-8.3.1  -v -rdynamic CMakeFiles/cmTC_62efb.dir/CMakeCCompilerABI.c.o -o cmTC_62efb 
+Using built-in specs.
+COLLECT_GCC=/bin/arm-none-eabi-gcc-8.3.1
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/arm-none-eabi/8.3.1/lto-wrapper
+arm-none-eabi-gcc-8.3.1: error: unrecognized command line option '-rdynamic'
+Target: arm-none-eabi
+Configured with: ../configure --build=arm-linux-gnueabihf --prefix=/usr --includedir='/usr/lib/include' --mandir='/usr/lib/share/man' --infodir='/usr/lib/share/info' --sysconfdir=/etc --localstatedir=/var --disable-option-checking --disable-silent-rules --libdir='/usr/lib/lib/arm-linux-gnueabihf' --libexecdir='/usr/lib/lib/arm-linux-gnueabihf' --disable-maintainer-mode --disable-dependency-tracking --mandir=/usr/share/man --enable-languages=c,c++,lto --enable-multilib --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --enable-tls --build=arm-linux-gnueabihf --target=arm-none-eabi --with-system-zlib --with-gnu-as --with-gnu-ld --with-pkgversion=15:8-2019-q3-1+b1 --without-included-gettext --prefix=/usr/lib --infodir=/usr/share/doc/gcc-arm-none-eabi/info --htmldir=/usr/share/doc/gcc-arm-none-eabi/html --pdfdir=/usr/share/doc/gcc-arm-none-eabi/pdf --bindir=/usr/bin --libexecdir=/usr/lib --libdir=/usr/lib --disable-libstdc++-v3 --host=arm-linux-gnueabihf --with-headers=no --without-newlib --with-multilib-list=rmprofile CFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-3BFy9A/gcc-arm-none-eabi-8-2019-q3=. -fstack-protector-strong' CPPFLAGS='-Wdate-time -D_FORTIFY_SOURCE=2' CXXFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-3BFy9A/gcc-arm-none-eabi-8-2019-q3=. -fstack-protector-strong' FCFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-3BFy9A/gcc-arm-none-eabi-8-2019-q3=. -fstack-protector-strong' FFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-3BFy9A/gcc-arm-none-eabi-8-2019-q3=. -fstack-protector-strong' GCJFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-3BFy9A/gcc-arm-none-eabi-8-2019-q3=. -fstack-protector-strong' LDFLAGS=-Wl,-z,relro OBJCFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-3BFy9A/gcc-arm-none-eabi-8-2019-q3=. -fstack-protector-strong' OBJCXXFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-3BFy9A/gcc-arm-none-eabi-8-2019-q3=. -fstack-protector-strong' INHIBIT_LIBC_CFLAGS=-DUSE_TM_CLONE_REGISTRY=0 AR_FOR_TARGET=arm-none-eabi-ar AS_FOR_TARGET=arm-none-eabi-as LD_FOR_TARGET=arm-none-eabi-ld NM_FOR_TARGET=arm-none-eabi-nm OBJDUMP_FOR_TARGET=arm-none-eabi-objdump RANLIB_FOR_TARGET=arm-none-eabi-ranlib READELF_FOR_TARGET=arm-none-eabi-readelf STRIP_FOR_TARGET=arm-none-eabi-strip
+Thread model: single
+gcc version 8.3.1 20190703 (release) [gcc-8-branch revision 273027] (15:8-2019-q3-1+b1) 
+gmake[1]: *** [CMakeFiles/cmTC_62efb.dir/build.make:106: cmTC_62efb] Error 1
+gmake[1]: Leaving directory '/home/pi/pico/RP2040-HAT-C/libraries/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_62efb/fast] Error 2
+
+
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: /home/pi/pico/RP2040-HAT-C/libraries/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_fbc0a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_fbc0a.dir/build.make CMakeFiles/cmTC_fbc0a.dir/build
+gmake[1]: Entering directory '/home/pi/pico/RP2040-HAT-C/libraries/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fbc0a.dir/testCCompiler.c.o
+/bin/arm-none-eabi-gcc-8.3.1    -o CMakeFiles/cmTC_fbc0a.dir/testCCompiler.c.o -c /home/pi/pico/RP2040-HAT-C/libraries/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_fbc0a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fbc0a.dir/link.txt --verbose=1
+/bin/arm-none-eabi-gcc-8.3.1 -rdynamic CMakeFiles/cmTC_fbc0a.dir/testCCompiler.c.o -o cmTC_fbc0a 
+arm-none-eabi-gcc-8.3.1: error: unrecognized command line option '-rdynamic'
+gmake[1]: *** [CMakeFiles/cmTC_fbc0a.dir/build.make:106: cmTC_fbc0a] Error 1
+gmake[1]: Leaving directory '/home/pi/pico/RP2040-HAT-C/libraries/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_fbc0a/fast] Error 2
+
+
+

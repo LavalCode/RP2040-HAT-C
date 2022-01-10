@@ -54,9 +54,9 @@
 static wiz_NetInfo g_net_info =
     {
         .mac = {0x00, 0x08, 0xDC, 0x12, 0x34, 0x56}, // MAC address
-        .ip = {192, 168, 11, 2},                     // IP address
+        .ip = {192, 168, 1, 96},                     // IP address
         .sn = {255, 255, 255, 0},                    // Subnet Mask
-        .gw = {192, 168, 11, 1},                     // Gateway
+        .gw = {192, 168, 1, 1},                     // Gateway
         .dns = {8, 8, 8, 8},                         // DNS server
         .dhcp = NETINFO_STATIC                       // DHCP enable/disable
 };
@@ -68,7 +68,7 @@ static uint8_t g_mqtt_send_buf[ETHERNET_BUF_MAX_SIZE] = {
 static uint8_t g_mqtt_recv_buf[ETHERNET_BUF_MAX_SIZE] = {
     0,
 };
-static uint8_t g_mqtt_broker_ip[4] = {192, 168, 11, 3};
+static uint8_t g_mqtt_broker_ip[4] = {192, 168, 1, 70};
 static Network g_mqtt_network;
 static MQTTClient g_mqtt_client;
 static MQTTPacket_connectData g_mqtt_packet_connect_data = MQTTPacket_connectData_initializer;
@@ -87,6 +87,14 @@ static MQTTMessage g_mqtt_message;
   */
 int main()
 {
+
+       //try this ++++++++++
+    const uint LED_PIN = PICO_DEFAULT_LED_PIN;
+    gpio_init(LED_PIN);
+    gpio_set_dir(LED_PIN, GPIO_OUT);
+//++++++++++++++++++++++++++++++
+
+
     /* Initialize */
     int32_t retval = 0;
 
@@ -148,6 +156,29 @@ int main()
     g_mqtt_message.payloadlen = strlen(g_mqtt_message.payload);
 
     retval = MQTTPublish(&g_mqtt_client, MQTT_PUBLISH_TOPIC, &g_mqtt_message);
+
+
+//try this ++++++++++++++++
+       for( ; ; )
+{
+
+      gpio_put(LED_PIN, 1);
+      g_mqtt_message.qos = QOS0;
+      g_mqtt_message.retained = 0;
+      g_mqtt_message.dup = 0;
+      g_mqtt_message.payload = MQTT_PUBLISH_PAYLOAD;
+      g_mqtt_message.payloadlen = strlen(g_mqtt_message.payload);
+
+      retval = MQTTPublish(&g_mqtt_client, MQTT_PUBLISH_TOPIC, &g_mqtt_message);
+ 
+      printf(" Message Loop\n");
+        sleep_ms(2000);
+        gpio_put(LED_PIN, 0);
+        sleep_ms(250);
+}
+
+//+++++++++++++++++++++++++++++
+
 
     if (retval < 0)
     {
