@@ -161,6 +161,8 @@ int main()
 //try this ++++++++++++++++
        for( ; ; )
 {
+//this is the loop.. need to decide what to do if mqtt drops
+//this is the place to add loop code
 
       gpio_put(LED_PIN, 1);
       g_mqtt_message.qos = QOS0;
